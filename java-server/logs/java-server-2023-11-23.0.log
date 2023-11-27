@@ -1,0 +1,32 @@
+2023-11-23 00:00:17,399 [http-nio-9090-exec-5] ERROR o.f.teach.security.jwt.AuthEntryPointJwt           - Unauthorized error: /api/statistics/getMainPageData:Full authentication is required to access this resource
+2023-11-23 00:00:17,406 [http-nio-9090-exec-4] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-11-23 00:00:17,0.005
+2023-11-23 00:00:17,406 [http-nio-9090-exec-5] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,,2023-11-23 00:00:17,0.007
+2023-11-23 00:00:21,452 [http-nio-9090-exec-6] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/testValidateInfo,,2023-11-23 00:00:21,0.002
+2023-11-23 00:00:21,836 [http-nio-9090-exec-8] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/login,,2023-11-23 00:00:21,0.076
+2023-11-23 00:00:22,029 [http-nio-9090-exec-7] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,admin,2023-11-23 00:00:22,0.015
+2023-11-23 00:00:22,156 [http-nio-9090-exec-9] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getMenuList,admin,2023-11-23 00:00:22,0.005
+2023-11-23 00:00:22,190 [http-nio-9090-exec-10] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,admin,2023-11-23 00:00:22,0.006
+2023-11-23 00:01:15,882 [http-nio-9090-exec-1] ERROR o.f.teach.security.jwt.AuthEntryPointJwt           - Unauthorized error: /api/statistics/getMainPageData:Full authentication is required to access this resource
+2023-11-23 00:01:15,883 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,,2023-11-23 00:01:15,0.001
+2023-11-23 00:01:15,896 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-11-23 00:01:15,0.013
+2023-11-23 00:01:19,095 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/testValidateInfo,,2023-11-23 00:01:19,0.002
+2023-11-23 00:01:19,521 [http-nio-9090-exec-4] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/login,,2023-11-23 00:01:19,0.1
+2023-11-23 00:01:19,696 [http-nio-9090-exec-5] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,admin,2023-11-23 00:01:19,0.018
+2023-11-23 00:01:19,853 [http-nio-9090-exec-6] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getMenuList,admin,2023-11-23 00:01:19,0.006
+2023-11-23 00:01:19,928 [http-nio-9090-exec-8] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,admin,2023-11-23 00:01:19,0.006
+2023-11-23 00:01:28,918 [http-nio-9090-exec-7] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,admin,2023-11-23 00:01:28,0.0
+2023-11-23 00:01:30,733 [http-nio-9090-exec-9] ERROR o.f.teach.security.jwt.AuthEntryPointJwt           - Unauthorized error: /api/statistics/getMainPageData:Full authentication is required to access this resource
+2023-11-23 00:01:30,733 [http-nio-9090-exec-9] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,,2023-11-23 00:01:30,0.0
+2023-11-23 00:01:30,758 [http-nio-9090-exec-10] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-11-23 00:01:30,0.004
+2023-11-23 00:01:33,999 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/testValidateInfo,,2023-11-23 00:01:33,0.0
+2023-11-23 00:01:34,379 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/login,,2023-11-23 00:01:34,0.11
+2023-11-23 00:01:34,408 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,admin,2023-11-23 00:01:34,0.003
+2023-11-23 00:01:34,738 [http-nio-9090-exec-4] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getMenuList,admin,2023-11-23 00:01:34,0.012
+2023-11-23 00:01:34,992 [http-nio-9090-exec-5] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,admin,2023-11-23 00:01:34,0.0
+2023-11-23 00:02:02,907 [http-nio-9090-exec-6] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,admin,2023-11-23 00:02:02,0.008
+2023-11-23 00:04:15,502 [http-nio-9090-exec-8] ERROR o.f.teach.security.jwt.AuthEntryPointJwt           - Unauthorized error: /api/statistics/getMainPageData:Full authentication is required to access this resource
+2023-11-23 00:04:15,502 [http-nio-9090-exec-8] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,,2023-11-23 00:04:15,0.0
+2023-11-23 00:04:15,833 [http-nio-9090-exec-7] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-11-23 00:04:15,0.014
+2023-11-23 00:05:29,194 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-23 00:05:29,194 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown initiated...
+2023-11-23 00:05:29,210 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown completed.
