@@ -34,8 +34,14 @@
           <input class="valicode" v-model="valiCode" placeholder="请输入验证码" />
           <img @click="changeValiCode()" class="img1" referrerpolicy="no-referrer" :src="img" />
         </div>
-        
-        
+        <div class="logindiv">
+          <div class="loginbt" @click=adminLogin()>管理员登录</div>
+          <div class="loginbt" @click=stu1Login()>学生一登录</div>
+        </div>
+        <div class="logindiv">
+          <div class="loginbt" @click=teacherLogin()>教师登录</div>
+          <div class="loginbt" @click=stu2Login()>学生二登录</div>
+        </div>
         <div class="primary-btn" @click=loginSubmit()>立即登录</div>
       </form>
     </div>
@@ -242,6 +248,130 @@ export default defineComponent({
         message(this, res.msg);
       }
     },
+    async stu1Login(){
+      const store = useAppStore();
+      try {
+          //登录成功后，将用户信息保存到store中，将用户信息保存到浏览器中
+          await store.login("202200300050", "123456");
+          
+          console.log(store.userInfo)
+          await store.setNavi();
+          
+          if (this.remember) {
+            store.saveAccount(
+              Base64.encode(this.username),
+              Base64.encode(this.password)
+            );
+          } else {
+            store.removeAccount();
+          }
+          router.push("/MainPage");
+          setTimeout(this.refresh,500)
+          const loadingInstance=ElLoading.service({ fullscreen: true,
+                                                    lock: true,
+                                                    text: 'Loading',
+                                                    background: 'rgba(0, 0, 0, 0.7)'})
+          setTimeout(() => {
+                              loadingInstance.close()
+                                                      }, 2000)
+        } catch (err) {
+          this.changeValiCode();
+          message(this, "登录失败!!!");
+        }
+    },
+    async stu2Login(){
+      const store = useAppStore();
+      try {
+          //登录成功后，将用户信息保存到store中，将用户信息保存到浏览器中
+          await store.login("202200300050", "123456");
+          
+          console.log(store.userInfo)
+          await store.setNavi();
+          
+          if (this.remember) {
+            store.saveAccount(
+              Base64.encode(this.username),
+              Base64.encode(this.password)
+            );
+          } else {
+            store.removeAccount();
+          }
+          router.push("/MainPage");
+          setTimeout(this.refresh,500)
+          const loadingInstance=ElLoading.service({ fullscreen: true,
+                                                    lock: true,
+                                                    text: 'Loading',
+                                                    background: 'rgba(0, 0, 0, 0.7)'})
+          setTimeout(() => {
+                              loadingInstance.close()
+                                                      }, 2000)
+        } catch (err) {
+          this.changeValiCode();
+          message(this, "登录失败!!!");
+        }
+    },
+    async teacherLogin(){
+      const store = useAppStore();
+      try {
+          //登录成功后，将用户信息保存到store中，将用户信息保存到浏览器中
+          await store.login("teacher1", "123");
+          
+          console.log(store.userInfo)
+          await store.setNavi();
+          
+          if (this.remember) {
+            store.saveAccount(
+              Base64.encode(this.username),
+              Base64.encode(this.password)
+            );
+          } else {
+            store.removeAccount();
+          }
+          router.push("/MainPage");
+          setTimeout(this.refresh,500)
+          const loadingInstance=ElLoading.service({ fullscreen: true,
+                                                    lock: true,
+                                                    text: 'Loading',
+                                                    background: 'rgba(0, 0, 0, 0.7)'})
+          setTimeout(() => {
+                              loadingInstance.close()
+                                                      }, 2000)
+        } catch (err) {
+          this.changeValiCode();
+          message(this, "登录失败!!!");
+        }
+    },
+    async adminLogin(){
+      const store = useAppStore();
+      try {
+          //登录成功后，将用户信息保存到store中，将用户信息保存到浏览器中
+          await store.login("admin", "123456");
+          
+          console.log(store.userInfo)
+          await store.setNavi();
+          
+          if (this.remember) {
+            store.saveAccount(
+              Base64.encode(this.username),
+              Base64.encode(this.password)
+            );
+          } else {
+            store.removeAccount();
+          }
+          router.push("/MainPage");
+          setTimeout(this.refresh,500)
+          const loadingInstance=ElLoading.service({ fullscreen: true,
+                                                    lock: true,
+                                                    text: 'Loading',
+                                                    background: 'rgba(0, 0, 0, 0.7)'})
+          setTimeout(() => {
+                              loadingInstance.close()
+                                                      }, 2000)
+        } catch (err) {
+          this.changeValiCode();
+          message(this, "登录失败!!!");
+        }
+    },
     //登录请求后台服务，将用户登录信息发送到后台，后台验证用户信息，返回jwt
     async loginSubmit() {
       const res = await testValidateInfo({
@@ -294,6 +424,31 @@ export default defineComponent({
 </script>
 
 <style lang="scss" scoped>
+.logindiv {
+  display: flex;
+  height: 50px;
+}
+.loginbt {
+    width: 90px;
+    height: 40px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 270%;
+    font-size: 14px;
+    letter-spacing: 2px;
+    background-color: #4b70e2;
+    color: #f9f9f9;
+    cursor: pointer;
+    box-shadow: 8px 8px 16px #d1d9e6, -8px -8px 16px #f9f9f9;
+    &:hover {
+      box-shadow: 4px 4px 6px 0 rgb(255 255 255 / 50%),
+        -4px -4px 6px 0 rgb(116 125 136 / 50%),
+        inset -4px -4px 6px 0 rgb(255 255 255 / 20%),
+        inset 4px 4px 6px 0 rgb(0 0 0 / 40%);
+    }
+  }
 .img1 {
   width: 86px;
   height: 25px;
@@ -511,7 +666,6 @@ export default defineComponent({
     width: 180px;
     height: 50px;
     border-radius: 25px;
-    margin-top: 120px;
     text-align: center;
     line-height: 50px;
     font-size: 14px;

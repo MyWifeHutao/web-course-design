@@ -7,7 +7,7 @@ server:
   port: 9090
 spring:
   datasource:
-    url: jdbc:sqlite:/web/teach-web/web.db
+    url: jdbc:sqlite:/web/web-course-design/web.db
     driver-class-name: org.sqlite.JDBC
     username: admin
     password: admin
@@ -42,6 +42,6 @@ spring:
       enabled: true
       force: true
 attach:
-  folder: /web/teach-web/java-server/
+  folder: /web/web-course-design/java-server/
 logging:
   config: classpath:loggback.xml

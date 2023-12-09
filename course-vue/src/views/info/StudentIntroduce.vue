@@ -79,14 +79,12 @@
           <td width="5%">课程名</td>
           <td width="5%">学分</td>
           <td width="5%">成绩</td>
-          <td width="5%">排名</td>
         </tr>
-        <tr v-for="item in scoreList" :key="item.studentId">
+        <tr v-for="item in filteredList" :key="item.studentId">
           <td>{{ item.courseNum }}</td>
           <td>{{ item.courseName }}</td>
           <td>{{ item.credit }}</td>
           <td>{{ item.mark }}</td>
-          <td>{{ item.ranking }}</td>
         </tr>
       </table>
     </div>
@@ -155,12 +153,16 @@ export default defineComponent({
     this.markList = res.data.markList;
     this.scoreList = res.data.scoreList;
     res = await getPhotoImageStr("photo/" + this.info.name+this.info.num + ".jpg");
-    message(this,"v"+this.info.personId);
     this.imgStr = res.data;
     this.drawEcharts();
   },
-  mounted() {},
 
+  mounted() {},
+  computed : {
+    filteredList() {
+      return this.scoreList.filter(item => item.mark > 0);
+    },
+},
   methods: {
     drawEcharts() {
       // 基于准备好的dom，初始化echarts实例
@@ -179,25 +181,6 @@ export default defineComponent({
           {
             name: "消费",
             type: "bar",
-            data: this.feeList.map((item) => item.value),
-          },
-        ],
-      });
-      let myChartLine = echart.init(
-        document.getElementById("myChartLine") as any
-      );
-      // 绘制图表
-      myChartLine.setOption({
-        title: { text: "日常消费" },
-        tooltip: {},
-        xAxis: {
-          data: this.feeList.map((item) => item.title),
-        },
-        yAxis: {},
-        series: [
-          {
-            name: "消费",
-            type: "line",
             data: this.feeList.map((item) => item.value),
           },
         ],

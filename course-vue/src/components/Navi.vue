@@ -74,8 +74,16 @@
                           <el-menu-item-group>
                               <el-menu-item index="/MainPage" @click=goToMain()>主界面</el-menu-item>
                               <el-menu-item index="/Introduce" @click=studentIntroduce()>个人简介</el-menu-item>
-                              <el-menu-item index="/Choose" @click=courseChoose()>学生选课</el-menu-item>
                               <el-menu-item index="/Login" @click=changePswd()>修改密码</el-menu-item>
+                              </el-menu-item-group>
+                        </el-sub-menu>  
+                        <el-sub-menu index="2" >
+                          <template #title>
+                            <el-icon><Notebook /></el-icon>
+                            <span>智慧教学</span>
+                          </template>
+                          <el-menu-item-group>
+                              <el-menu-item index="/Choose" @click=courseChoose()>学生选课</el-menu-item>
                               </el-menu-item-group>
                         </el-sub-menu>  
             </template>
@@ -105,6 +113,7 @@
                 <img @click="switchCollapse()" class="icon2" referrerpolicy="no-referrer" src="https://picdm.sunbangyan.cn/2023/11/22/a26e4043c981cd03f814bb1e6c32613c.jpeg" />
               </div>
               <div style="width: 60%;">
+                <img @click="FullScreen()" class="icon3" referrerpolicy="no-referrer" src="https://i.miji.bid/2023/12/10/0e19d5a57df07a6a9da8a5775ce359f8.png" />
               </div>
               <div style="width: 20%;height:70;" class="flex-row">
                   <img @click="drawer = true" class="icon1" referrerpolicy="no-referrer" :src="imgStr" />
@@ -123,22 +132,51 @@
             :before-close="handleClose1"
             >
             <span>Hi, there!</span>
-            <div class="flex-row">
+            <div class="drawer">
               <img width="200"
                    referrerpolicy="no-referrer"
                    :src="imgStr"
                    />
               <input
-              style="margin-left: 10px"
+              style="margin-left: 20%"
               type="file"
               id="file"
               accept=".jpg"
             />
-            <el-button type="primary" plain @click="uploadFile()" >图片上传</el-button>
+            <div>
+              <el-button type="primary" plain @click="uploadFile()" >图片上传</el-button>
+              <el-button type="danger" plain @click="logout(),drawer=false">退出登录</el-button>
+            </div>
+              <el-carousel class="carousel" trigger="click" >
+              <el-carousel-item v-for="item in filteredList" :key="item.studentId">
+                <el-card class="box-card">
+                  <template #header>
+                    <div class="card-header">
+                      <span>{{ item.courseName }}</span>
+                    </div>
+                  </template>
+                    <div>课序号：{{ item.courseNum }}</div>
+                    <div>学分：{{ item.credit }}</div>
+                    <div>成绩：{{ item.mark }}</div>
+                    <div>成绩：{{ item.mark }}</div>
+                <hr/>
+                    <div>
+                      <span v-if="item.mark>=90">评级：优</span>
+                      <span v-if="item.mark>=80 && item.mark<90">评级：良</span>
+                      <span v-if="item.mark>=70 && item.mark<80">评级：中</span>
+                      <span v-if="item.mark>=60 && item.mark<70">评级：差</span>
+                      <span v-if="item.mark<60">评级：差</span>
+                    </div>
+                  
+                </el-card>
+              </el-carousel-item>
+            </el-carousel>
+
+            
             </div>
             
             
-            <el-button type="danger" plain @click="logout(),drawer=false">退出登录</el-button>
+            
            </el-drawer>
             </div>
             <div style="height: 30px;background-color: aqua;width: 100%;">
@@ -165,11 +203,11 @@ import { mapState } from "pinia";
 import { defineComponent } from "vue";
 import { useAppStore } from "~/stores/app";
 import router from "~/router";
-import { type StudentItem,type MenuInfo } from "~/models/general";
+import { type StudentItem,type MenuInfo, OptionItem, ScoreItem } from "~/models/general";
 import { formatTime } from "~/tools/comMethod";
 import { ref } from 'vue'
 import { ElMessageBox } from 'element-plus'
-import{getPhotoImageStr,uploadPhoto} from '~/services/infoServ'
+import{getPhotoImageStr,getStudentIntroduceData,uploadPhoto} from '~/services/infoServ'
 import { message } from "~/tools/messageBox";
 // vue3中新增了 defineComponent ，它并没有实现任何的逻辑，只是把接收的 Object 直接返回，它的存在就是完全为了服务 TypeScript 而存在的。
 // 我都知道普通的组件就是一个普通的对象，既然是一个普通的对象，那自然就不会获得自动的提示，
@@ -180,7 +218,10 @@ export default defineComponent({
     isCollapse: true,
     leList: [] as MenuInfo[],
     funId: "",
+    studentId: null as number | null,
     imgStr: "",
+    markList: [] as OptionItem[],
+    scoreList: [] as ScoreItem[],
     info: {} as StudentItem,
     timer: null as any,
     currentTime: formatTime(new Date()),
@@ -191,10 +232,15 @@ export default defineComponent({
 }
   }),
   async created(){
-    
     message(this,""+this.info.personId)
     let res = await getPhotoImageStr("photo/" + this.userInfo.perName+this.userInfo.username + ".jpg");
     this.imgStr = res.data;
+    res = await getStudentIntroduceData(this.studentId);
+    this.info = res.data.info;
+    this.studentId = this.info.studentId;
+    this.markList = res.data.markList;
+    this.scoreList = res.data.scoreList;
+    console.log(this.scoreList);
   },
   //生命周期函数  mounted() 在实例挂载之后调用， 设置定期刷新控制台时间
   mounted() {
@@ -216,8 +262,14 @@ export default defineComponent({
   computed: {
     ...mapState(useAppStore, ["systemConfig"]),
     ...mapState(useAppStore, ["userInfo"]),
+    filteredList() {
+      return this.scoreList.filter(item => item.mark > 0);
+    },
   },
   methods: {
+    FullScreen(){
+      document.getElementById('app').requestFullscreen()
+    },
     async uploadFile() {
       const file = document.querySelector("#file") as any;
       if (file.files == null || file.files.length == 0) {
@@ -317,9 +369,30 @@ export default defineComponent({
 </script>
 <!-- 这个是系统主页面的样式，同学可以根据自己的喜好修改 -->
 <style lang="scss" scoped>
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.carousel{
+  height:500px;
+  align-items: center;
+  width: 80%;
+}
+.box-card {
+  margin-top: 50px;
+  height: 220px;
+  width: 95%;
+}
 .icon1 {
   width: 44px;
   height: 44px;
+}
+.icon3 {
+  width: 44px;
+  height: 44px;
+  margin-top: 8px;
+  margin-left: 95%;
 }
 .el-menu--horizontal > .el-menu-item {
   height: 44px;
@@ -572,6 +645,12 @@ export default defineComponent({
 .flex-row {
   display: flex;
   flex-direction: row;
+}
+.drawer {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .justify-between {
