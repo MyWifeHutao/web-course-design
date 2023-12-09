@@ -7,7 +7,7 @@
 
     <div class="base_query_oneLine">
       <div class="query_left">
-        <button class="commButton" @click="addItem()">添加</button>
+        <button class="commButton" @click="dialogFormVisible = true">添加</button>
       </div>
       <div class="query_right">
         <span style="margin-top: 5px">课程号或课程名</span>
@@ -40,12 +40,11 @@
     </div>
   </div>
   <!-- 对话框显示 -->
-  <dialog
-    id="favDialog"
+  <el-dialog
+    v-model="dialogFormVisible"
     onclose="close()"
-    style="position: absolute; top: 300px; left: 300px; width: 300px; height: 310px"
+    title="课程添加修改对话框"
   >
-    <div class="base_title">课程添加修改对话框</div>
     <div class="dialog-div" style="margin-top: 5px">
       <table class="content">
         <tr>
@@ -79,23 +78,24 @@
           </td>
         </tr>
 
-        <tr>
-          <td colspan="2">
-            <button class="commButton" @click="close()" style="margin-right: 30px">取消</button>
-            <button class="commButton" @click="confirm()">确认</button>
-          </td>
-        </tr>
+        
+          
+            <el-button class="commButton" @click="dialogFormVisible = false">取消</el-button>
+            <el-button class="commButton" @click="confirm()">确认</el-button>
+          
+        
       </table>
     </div>
-  </dialog>
+  </el-dialog>
 </template>
 
 <script lang="ts">
 import { type CourseItem, type OptionItem } from '~/models/general'
-import { defineComponent } from 'vue'
+import { defineComponent,ref } from 'vue'
 import { getCourseList, courseDelete, courseSave } from '~/services/teachingServ'
 import { message, messageConform } from '~/tools/messageBox'
 import { getDialog } from '~/tools/comMethod'
+import { ElLoading } from 'element-plus'
 export default defineComponent({
   // 双向绑定数据
   data: () => ({
@@ -103,7 +103,9 @@ export default defineComponent({
     courseList: [] as CourseItem[],
     courseSelectList: [] as OptionItem[],
     deleteId: -1,
+    dialogFormVisible : ref(false),
     form: {} as CourseItem
+    
   }),
   //初始加载一次,直接获取教师列表
   created() {
@@ -136,7 +138,7 @@ export default defineComponent({
     //编辑课程,显示对话框
     editItem(item: CourseItem) {
       this.form = item
-      getDialog('favDialog').show()
+      this.dialogFormVisible = true
     },
     //关闭对话框
     close() {
@@ -144,7 +146,7 @@ export default defineComponent({
     },
     //确认对话框
     async confirm() {
-      this.close()
+      this.dialogFormVisible = false;
       const res = await courseSave(this.form)
       if (res.code == 0) {
         message(this, '保存成功')

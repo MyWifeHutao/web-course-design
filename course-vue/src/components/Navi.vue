@@ -21,10 +21,11 @@
               @close="handleClose"
             >
 
-            <img @click="switchCollapse()" class="icon1" referrerpolicy="no-referrer" src="https://picdl.sunbangyan.cn/2023/11/22/e16fcc9883e514281b39b2108fb1a20d.jpeg" />
+            <img @click="switchCollapse()" class="icon1" referrerpolicy="no-referrer" src="https://picst.sunbangyan.cn/2023/12/01/be22f794e3145d6d9ee91b995441ab22.jpeg" />
             <template v-if="userInfo.roles == 'ROLE_ADMIN'">
                         <el-sub-menu index="1" >
                           <template #title>
+                            <el-icon><location /></el-icon>
                             <span>个人信息</span>
                           </template>
                           <el-menu-item-group>
@@ -34,6 +35,7 @@
                         </el-sub-menu>
                         <el-sub-menu index="2" >
                           <template #title>
+                            <el-icon><Connection /></el-icon>
                             <span>系统管理</span>
                           </template>
                           <el-menu-item-group>
@@ -43,6 +45,7 @@
                         </el-sub-menu>
                         <el-sub-menu index="3" >
                           <template #title>
+                            <el-icon><document /></el-icon>
                             <span>人员管理</span>
                           </template>
                           <el-menu-item-group>
@@ -52,6 +55,7 @@
                         </el-sub-menu>
                         <el-sub-menu index="4" >
                           <template #title>
+                            <el-icon><setting /></el-icon>
                             <span>教务管理</span>
                           </template>
                           <el-menu-item-group>
@@ -64,11 +68,13 @@
 
                         <el-sub-menu index="1" >
                           <template #title>
+                            <el-icon><location /></el-icon>
                             <span>个人信息</span>
                           </template>
                           <el-menu-item-group>
                               <el-menu-item index="/MainPage" @click=goToMain()>主界面</el-menu-item>
                               <el-menu-item index="/Introduce" @click=studentIntroduce()>个人简介</el-menu-item>
+                              <el-menu-item index="/Choose" @click=courseChoose()>学生选课</el-menu-item>
                               <el-menu-item index="/Login" @click=changePswd()>修改密码</el-menu-item>
                               </el-menu-item-group>
                         </el-sub-menu>  
@@ -77,6 +83,7 @@
 
                         <el-sub-menu index="1" >
                           <template #title>
+                            <el-icon><location /></el-icon>
                             <span>个人信息</span>
                           </template>
                           <el-menu-item-group>
@@ -117,21 +124,20 @@
             >
             <span>Hi, there!</span>
             <div class="flex-row">
-              <img class="icon1"
+              <img width="200"
                    referrerpolicy="no-referrer"
                    :src="imgStr"
                    />
-            </div>
-            <el-upload>
-              
-            </el-upload>
-            <input
+              <input
               style="margin-left: 10px"
               type="file"
               id="file"
               accept=".jpg"
             />
             <el-button type="primary" plain @click="uploadFile()" >图片上传</el-button>
+            </div>
+            
+            
             <el-button type="danger" plain @click="logout(),drawer=false">退出登录</el-button>
            </el-drawer>
             </div>
@@ -225,6 +231,7 @@ export default defineComponent({
 
       if (res.code === 0) {
         message(this, "上传成功");
+        window.location.reload();
       } else {
         message(this, "上传失败");
       }
@@ -258,6 +265,9 @@ export default defineComponent({
     },
     studentIntroduce(){
       router.push("/StudentIntroduce");
+    },
+    courseChoose(){
+      router.push("/CourseChoose");
     },
     goToMain(){
       router.push("/MainPage");

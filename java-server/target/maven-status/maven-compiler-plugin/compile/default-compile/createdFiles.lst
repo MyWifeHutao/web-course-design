@@ -15,6 +15,7 @@ org\fatmansoft\teach\repository\MaterialRepository.class
 org\fatmansoft\teach\security\jwt\JwtUtils.class
 org\fatmansoft\teach\stream\BinaryInputDemo.class
 org\fatmansoft\teach\repository\TeamRepository.class
+org\fatmansoft\teach\service\TeacherService.class
 org\fatmansoft\teach\models\UserType.class
 org\fatmansoft\teach\service\EmailService.class
 org\fatmansoft\teach\models\StatisticsDay.class

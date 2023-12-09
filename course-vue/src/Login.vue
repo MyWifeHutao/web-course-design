@@ -75,6 +75,7 @@ import router from "./router";
 import { Base64 } from "js-base64";
 import { storeToRefs } from "pinia";
 import { userInfo } from "os";
+import { ElLoading } from "element-plus";
 function checkNotEmpty(value: string): boolean | string {
   if (value) return true;
 
@@ -274,7 +275,14 @@ export default defineComponent({
             store.removeAccount();
           }
           router.push("/MainPage");
-          setTimeout(this.refresh,1)
+          setTimeout(this.refresh,500)
+          const loadingInstance=ElLoading.service({ fullscreen: true,
+                                                    lock: true,
+                                                    text: 'Loading',
+                                                    background: 'rgba(0, 0, 0, 0.7)'})
+          setTimeout(() => {
+                              loadingInstance.close()
+                                                      }, 2000)
         } catch (err) {
           this.changeValiCode();
           message(this, "登录失败!!!");
