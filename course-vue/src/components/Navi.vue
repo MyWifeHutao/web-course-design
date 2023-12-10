@@ -9,9 +9,9 @@
         userInfo.loggedIn
       "
     >
-      <el-container style="height: 100%">
+      <el-container style="height: 100%;background-color: white;">
         <!-- 主页面的头部区域 -->
-        <el-aside width= "isCollapse ? '64px':'250px'" style="height: 100%">
+        <el-aside width= "isCollapse ? '64px':'250px'" style="height: 100%;background-color: white;">
             
             <el-menu 
               default-active="2"

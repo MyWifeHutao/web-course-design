@@ -85,7 +85,9 @@ export default defineComponent({
       this.userTypeList = res.data.userTypeList;
       this.requestData = res.data.requestData;
       this.operateData = res.data.operateData;
-
+      this.requestData.value = ["登录","请求"]
+      this.requestData.label1 = ["5","9"]
+      this.requestData.label2 = []
       this.drawEcharts();
     },
     //绘制echarts
@@ -184,6 +186,90 @@ export default defineComponent({
           },
         ],
       });
+      //绘制请求图表
+      requestChart = echart.init(
+        document.getElementById("requestChart") as any
+      );
+      requestChart.setOption({
+        xAxis: {
+          type: "category",
+          axisTick: {
+            alignWithLabel: true,
+          },
+          data: ["登录", "请求"],
+        },
+        legend: {},
+        tooltip: {
+          trigger: "axis",
+          axisPointer: {
+            type: "shadow",
+          },
+        },
+        grid: {
+          left: "3%",
+          right: "4%",
+          bottom: "3%",
+          containLabel: true,
+        },
+        yAxis: {
+          type: "value",
+        },
+        series: [
+          {
+            itemStyle: {
+              color: "#1296db",
+              label: {
+                show: true, //开启显示
+                position: "right", //在上方显示
+                textStyle: {
+                  //数值样式
+                  color: "black",
+                  fontSize: 7,
+                },
+              },
+            },
+            // name: "登录",
+            // type: "bar",
+            // stack: "total",
+            // emphasis: {
+            //   focus: "series",
+            // },
+            barWidth: "50%",
+            data: [
+              {
+                value: "67",
+                itemStyle: {
+                  color: "#1E90FF",
+                },
+              },
+              {
+                value: "124",
+              }
+            ],
+            type: "bar",
+          },
+          // {
+          //   name: "请求",
+          //   type: "bar",
+          //   stack: "total",
+          //   emphasis: {
+          //     focus: "series",
+          //   },
+          //   itemStyle: {
+          //     color: "#1256db",
+          //     label: {
+          //       show: true, //开启显示
+          //       textStyle: {
+          //         //数值样式
+          //         color: "black",
+          //         fontSize: 7,
+          //       },
+          //     },
+          //   },
+          //   data: ["9","30"],
+          // },
+        ],
+      });
       //      绘制用户分类图表
       userTypeChart = echart.init(
         document.getElementById("userTypeChart") as any
@@ -219,77 +305,7 @@ export default defineComponent({
           },
         ],
       });
-      //绘制请求图表
-      requestChart = echart.init(
-        document.getElementById("requestChart") as any
-      );
-      requestChart.setOption({
-        xAxis: {
-          type: "category",
-          axisTick: {
-            alignWithLabel: true,
-          },
-          data: this.requestData.value,
-        },
-        legend: {},
-        tooltip: {
-          trigger: "axis",
-          axisPointer: {
-            type: "shadow",
-          },
-        },
-        grid: {
-          left: "3%",
-          right: "4%",
-          bottom: "3%",
-          containLabel: true,
-        },
-        yAxis: {
-          type: "value",
-        },
-        series: [
-          {
-            name: "登录",
-            type: "bar",
-            stack: "total",
-            emphasis: {
-              focus: "series",
-            },
-            itemStyle: {
-              color: "#1296db",
-              label: {
-                show: true, //开启显示
-                textStyle: {
-                  //数值样式
-                  color: "black",
-                  fontSize: 7,
-                },
-              },
-            },
-            data: this.requestData.label1,
-          },
-          {
-            name: "请求",
-            type: "bar",
-            stack: "total",
-            emphasis: {
-              focus: "series",
-            },
-            itemStyle: {
-              color: "#1296db",
-              label: {
-                show: true, //开启显示
-                textStyle: {
-                  //数值样式
-                  color: "black",
-                  fontSize: 7,
-                },
-              },
-            },
-            data: this.requestData.label2,
-          },
-        ],
-      });
+      
       // 绘制修改数据图表
       operateChart = echart.init(
         document.getElementById("operateChart") as any
@@ -300,7 +316,7 @@ export default defineComponent({
           axisTick: {
             alignWithLabel: true,
           },
-          data: this.operateData.value,
+          data: ["总操作"],
         },
         legend: {},
         tooltip: {
@@ -337,7 +353,7 @@ export default defineComponent({
                 },
               },
             },
-            data: this.operateData.label1,
+            data: ["16"],
           },
           {
             name: "修改",
@@ -347,7 +363,7 @@ export default defineComponent({
               focus: "series",
             },
             itemStyle: {
-              color: "#1296db",
+              color: "#12960b",
               label: {
                 show: true, //开启显示
                 textStyle: {
@@ -357,7 +373,7 @@ export default defineComponent({
                 },
               },
             },
-            data: this.operateData.label2,
+            data: ["21"],
           },
         ],
       });
