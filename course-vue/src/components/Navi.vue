@@ -386,6 +386,7 @@ export default defineComponent({
   width: 95%;
 }
 .icon1 {
+  border-radius: 50%;
   width: 44px;
   height: 44px;
 }

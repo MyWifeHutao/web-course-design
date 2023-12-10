@@ -1,98 +1,94 @@
 <template>
-  <div class="base_form">
-    <div class="base_header">
-      <div class="blue_column"></div>
+  <div id="mylog" class="base" style="background-color: white;">
+    <div class="base_header" style="background-color: white;">
+      <div class="blue_column" style="background-color: white;"></div>
       <div class="base_title">个人画像</div>
     </div>
-    <div class="table_center" style="margin-top: 5px">
-      <table class="content">
-        <tr>
-          <td>学号</td>
-          <td>
-            {{ info.num }}
-          </td>
-          <td>姓名</td>
-          <td>
-            {{ info.name }}
-          </td>
-          <td>学院</td>
-          <td>
-            {{ info.dept }}
-          </td>
-          <td rowspan="3">
-            <img :src="imgStr" alt="个人照片" width="200" />
-          </td>
-        </tr>
-        <tr>
-          <td>专业</td>
-          <td>
-            {{ info.major }}
-          </td>
-          <td>班级</td>
-          <td>
-            {{ info.className }}
-          </td>
-          <td>证件号码</td>
-          <td>
-            {{ info.card }}
-          </td>
-        </tr>
-        <tr>
-          <td>性别</td>
-          <td>
-            {{ info.genderName }}
-          </td>
-          <td>出生日期</td>
-          <td>
-            {{ info.birthday }}
-          </td>
-          <td>邮箱</td>
-          <td>
-            {{ info.email }}
-          </td>
-        </tr>
-        <tr>
-          <td>电话</td>
-          <td>
-            {{ info.phone }}
-          </td>
-          <td>地址</td>
-          <td colspan="3">
-            {{ info.address }}
-          </td>
-          <td>
-            <input
-              style="margin-left: 10px"
-              type="file"
-              id="file"
-              accept=".jpg"
-            />
-            <input type="button" value="图片上传" @click="uploadFile()" />
-          </td>
-        </tr>
-      </table>
+  <div class="outer">
+    <div class="section1">
+      <div class="head">
+        <img class="headimg" referrerpolicy="no-referrer" :src="imgStr" @click=""/>
+        <span class="name">{{ info.name }}</span>
+      </div>
+      <div class="contact">
+        <div class="block"><img class="icon1" referrerpolicy="no-referrer" src="https://i.miji.bid/2023/12/10/78ecd946ba4e09e34f873ead5c78ccb6.png"/>{{ info.phone }}</div>
+        <div class="block"><img class="icon1" referrerpolicy="no-referrer" src="https://i.miji.bid/2023/12/10/14ecf3b6f88df9c1391f1e70a21e83db.png"/>{{ info.email }}</div>
+        <div class="block"><img class="icon1" referrerpolicy="no-referrer" src="https://i.miji.bid/2023/12/10/84ec409301b1f17eff1b676f68a710ab.png"/>https://github.com/</div>
+      </div>
+      <div class="selfintro">
+        <span class="title">自我介绍</span>
+      <div class="block">
+        <img class="icon2" src="https://i.miji.bid/2023/12/10/98962ca08228979c13d7a4f01d33caec.png"/>能力项：沟通协调能力、执行力
+      </div>
+      <p>2022级软件工程本科生，拥有较强的执行力，做事干净利落不拖沓、不卡DDL；有一定的领导能力，担任多次小组作业的队长或主要队员；熟练掌握各类办公软件，在创新创业课程中绘制项目宣传PPT；熟练掌握PS等设计软件；熟练掌握剪辑软件</p>
+      </div>
+      <div class="educatedbg">
+        <span class="title">教育背景</span>
+        <div style="display: flex;flex-direction: row;">
+          <div class="inner1">
+          <p class="bword">山东大学<br/></p>软件工程
+          <div class="greyword">（本科）</div>
+          </div>
+          <div class="inner1">
+            <p class="greyword">2022.09~至今</p>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="table_center" style="margin-top: 5px">
-      <table class="content">
-        <tr>
-          <td width="5%">课程号</td>
-          <td width="5%">课程名</td>
-          <td width="5%">学分</td>
-          <td width="5%">成绩</td>
-        </tr>
-        <tr v-for="item in filteredList" :key="item.studentId">
-          <td>{{ item.courseNum }}</td>
-          <td>{{ item.courseName }}</td>
-          <td>{{ item.credit }}</td>
-          <td>{{ item.mark }}</td>
-        </tr>
-      </table>
+    <div class="section2">
+      <div class="score">
+        <el-table :data="filteredList" style="width: 100%">
+          <el-table-column prop="courseNum" label="课程号" width="180" />
+          <el-table-column prop="courseName" label="课程名" width="180" />
+          <el-table-column prop="credit" label="学分" />
+          <el-table-column prop="mark" label="成绩" />
+        </el-table>
+      </div>
+      <div class="moredetails">
+        <span class="title">更多信息</span>
+        <table class="content">
+          <tr>
+            <td>学号</td>
+            <td>{{ info.num }}</td>
+            <td>学院</td>
+            <td>{{ info.dept }}</td>
+          </tr>
+          <tr>
+            <td>专业</td>
+            <td>{{ info.major }}</td>
+            <td>班级</td>
+            <td>{{ info.className }}</td>
+          </tr>
+          <tr>
+            <td>证件号码</td>
+            <td>{{ info.card }}</td>
+            <td>性别</td>
+            <td>{{ info.genderName }}</td>
+          </tr>
+          <tr>
+            <td>出生日期</td>
+            <td>{{ info.birthday }}</td>
+            <td>邮箱</td>
+            <td>{{ info.email }}</td>
+          </tr>
+          <tr>
+            <td>地址</td>
+            <td colspan="3">{{ info.address }}</td>
+          </tr>
+        </table>
+      </div>
+      <div class="chart">
+        <div style="width: 100%">
+          <div id="myChartBar" :style="{ width: '200px', height: '300px' }"></div>
+          <div id="myChartPie" :style="{ width: '350px', height: '300px' }"></div>
+        </div>
+      </div>
     </div>
-    <div style="width: 60%">
-      <div id="myChartBar" :style="{ width: '300px', height: '300px' }"></div>
-      <div id="myChartPie" :style="{ width: '300px', height: '300px' }"></div>
-      <div id="myChartLine" :style="{ width: '300px', height: '300px' }"></div>
-    </div>
+  </div>
+    
+    
+    
+    
   </div>
   <div>
     <el-upload
@@ -129,10 +125,13 @@ import {
   uploadPhoto,
 } from "~/services/infoServ";
 import { message } from "~/tools/messageBox";
+import screenfull from "screenfull";
+
 const echart = echarts;
 
 export default defineComponent({
   data: () => ({
+    
     authHeader: getAuthHeader(),
     valid: false,
     uploadIsLoading: false,
@@ -157,11 +156,21 @@ export default defineComponent({
     this.drawEcharts();
   },
 
-  mounted() {},
+  mounted() {
+    const element = document.getElementById('mylog');//指定全屏区域元素
+      document.getElementById('mylog').addEventListener('click', () => {
+        if (screenfull.isEnabled) {
+          screenfull.request(element);
+        }
+      });//实现模块全屏
+  },
   computed : {
     filteredList() {
       return this.scoreList.filter(item => item.mark > 0);
     },
+    filteredList2(){
+      return this.markList.filter(item => parseInt(item.value) > 0);
+    }
 },
   methods: {
     drawEcharts() {
@@ -196,7 +205,7 @@ export default defineComponent({
           orient: "horizontal",
           x: "center",
           y: "bottom",
-          data: this.markList.map((item) => item.title),
+          data: this.filteredList2.map((item) => item.title),
         },
         series: [
           {
@@ -247,6 +256,123 @@ export default defineComponent({
 });
 </script>
 <style scoped>
+.chart{
+  width: 100%;
+  height: 50%;
+}
+.moredetails{
+  width: 100%;
+  height: 30%;
+  .title{
+    font-size: 30px;
+    color: cornflowerblue;
+  }
+}
+.score{
+  width: 100%;
+  height: 36%;
+}
+.educatedbg{
+  width: 70%;
+  height: 12%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+  .block{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .title{
+    font-size: 30px;
+    color: cornflowerblue;
+  }
+  .inner1{
+    height: 100%;
+    width: 50%;
+  }
+  .greyword{
+    color: grey;
+  }
+  .bword{
+    font-weight: 1000;
+  }
+}
+.selfintro{
+  width: 70%;
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+  .block{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .title{
+    font-size: 30px;
+    color: cornflowerblue;
+  }
+  .icon2{
+    margin-right: 10px;
+    width: 25px;
+    height: 25px;
+  }
+}
+.contact{
+  width: 70%;
+  height: 12%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+  .block{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .icon1{
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+  }
+}
+.head{
+  width: 100%;
+  height: 24%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .headimg{
+  margin-top: 5%;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  align-items: center;
+  }
+  .name{
+    margin-top: 2.5%;
+    font-size: 30px;
+  }
+}
+.section1{
+  height: 100%;
+  width: 40%;
+}
+.section2{
+  height: 100%;
+  width: 60%;
+}
+.base {
+  height: 100%;
+  width: 100%;
+  
+}
+.outer {
+  margin-left: 20%;
+  height: 100%;
+  width: 60%;
+  display: flex;
+}
 #myChartBar {
   float: left;
 }
