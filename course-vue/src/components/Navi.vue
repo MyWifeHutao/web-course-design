@@ -109,11 +109,12 @@
         <el-container>
           <el-header class="header2" height="100px">
             <div class="header" style="width: 100%;">
-              <div style="width: 20%;height:70;">
+              <div style="width: 15%;height:70;">
                 <img @click="switchCollapse()" class="icon2" referrerpolicy="no-referrer" src="https://picdm.sunbangyan.cn/2023/11/22/a26e4043c981cd03f814bb1e6c32613c.jpeg" />
-              </div>
-              <div style="width: 60%;">
                 <img @click="FullScreen()" class="icon3" referrerpolicy="no-referrer" src="https://i.miji.bid/2023/12/10/0e19d5a57df07a6a9da8a5775ce359f8.png" />
+              </div>
+              <div style="width: 65%;background-image: url('https://i.miji.bid/2023/12/10/2aecb1a35c4ff834bc74b6b4e890a183.png');">
+                
               </div>
               <div style="width: 20%;height:70;" class="flex-row">
                   <img @click="drawer = true" class="icon1" referrerpolicy="no-referrer" :src="imgStr" />
@@ -179,7 +180,7 @@
             
            </el-drawer>
             </div>
-            <div style="height: 30px;background-color: aqua;width: 100%;">
+            <div style="height: 30px;background-image: url('https://i.miji.bid/2023/12/10/0a17de75275b2d60c3892f4a8ee19115.png');width: 100%;">
 
 </div>
           </el-header>
@@ -392,7 +393,6 @@ export default defineComponent({
   width: 44px;
   height: 44px;
   margin-top: 8px;
-  margin-left: 95%;
 }
 .el-menu--horizontal > .el-menu-item {
   height: 44px;
