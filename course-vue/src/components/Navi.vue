@@ -63,6 +63,9 @@
                               <el-menu-item index="/score-table-panel" @click=goToScore()>成绩管理</el-menu-item>
                               </el-menu-item-group>
                         </el-sub-menu>  
+                        <el-button @click="hide()">
+                          
+                        </el-button>
             </template>
             <template v-if="userInfo.roles == 'ROLE_STUDENT'">
 
@@ -268,6 +271,9 @@ export default defineComponent({
     },
   },
   methods: {
+    hide(){
+      this.userInfo.loggedIn=!this.userInfo.loggedIn;
+    },
     FullScreen(){
       document.getElementById('app').requestFullscreen()
     },

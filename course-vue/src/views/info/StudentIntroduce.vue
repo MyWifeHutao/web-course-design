@@ -1,8 +1,26 @@
 <template>
-  <div id="mylog" class="base" style="background-color: white;">
+  <div id="mylog" class="base" style="background-color: white;background-image: url('https://i.miji.bid/2023/12/11/5aa93d090ad41d9e9e7e3a122af55a26.png');">
     <div class="base_header" style="background-color: white;">
       <div class="blue_column" style="background-color: white;"></div>
-      <div class="base_title">个人画像</div>
+      <div class="base_title">个人画像</div><div>
+    <el-upload
+      style="display: inline-block; margin-left: 5px"
+      :headers="authHeader"
+      :action="'/api/student/importFeeDataWeb'"
+      :data="{ studentId: studentId }"
+      accept=".xlsx,.xls"
+      :show-file-list="true"
+      :limit="1"
+      :multiple="false"
+      :on-success="onSuccess"
+    >
+      <el-button class="spacial">消费记录上传</el-button>
+    </el-upload>
+
+    <el-button style="margin-left: 5px" class="spacial" @click="htmlToPDF('mylog','test pdf')"
+      >附件下载</el-button
+    >
+  </div>
     </div>
   <div class="outer">
     <div class="section1">
@@ -90,25 +108,7 @@
     
     
   </div>
-  <div>
-    <el-upload
-      style="display: inline-block; margin-left: 5px"
-      :headers="authHeader"
-      :action="'/api/student/importFeeDataWeb'"
-      :data="{ studentId: studentId }"
-      accept=".xlsx,.xls"
-      :show-file-list="true"
-      :limit="1"
-      :multiple="false"
-      :on-success="onSuccess"
-    >
-      <el-button class="spacial">消费记录上传</el-button>
-    </el-upload>
-
-    <el-button style="margin-left: 5px" class="spacial" @click="downloadPdf()"
-      >附件下载</el-button
-    >
-  </div>
+  
 </template>
 <script lang="ts">
 import { defineComponent } from "vue";
@@ -126,7 +126,9 @@ import {
 } from "~/services/infoServ";
 import { message } from "~/tools/messageBox";
 import screenfull from "screenfull";
-
+import html2canvas from "html2canvas";
+import jsPDF from "jspdf";
+import { htmlToPDF } from "~/tools/html2pdf";
 const echart = echarts;
 
 export default defineComponent({
@@ -173,6 +175,38 @@ export default defineComponent({
     }
 },
   methods: {
+    htmlToPDF : async (htmlId: string, title: string = "报表", bgColor = "#fff") => {
+    let pdfDom: HTMLElement | null = document.getElementById(htmlId) as HTMLElement
+    pdfDom.style.padding = '0 10px !important'
+    const A4Width = 595.28;
+    const A4Height = 841.89;
+    let canvas = await html2canvas(pdfDom, {
+        scale: 2,
+        useCORS: true,
+        backgroundColor: bgColor,
+    });
+    let pageHeight = (canvas.width / A4Width) * A4Height;
+    let leftHeight = canvas.height;
+    let position = 0;
+    let imgWidth = A4Width;
+    let imgHeight = (A4Width / canvas.width) * canvas.height;
+    /*
+     根据自身业务需求  是否在此处键入下方水印代码
+    */
+    let pageData = canvas.toDataURL("image/jpeg", 1.0);
+    let PDF = new jsPDF("p", 'pt', 'a4');
+    if (leftHeight < pageHeight) {
+        PDF.addImage(pageData, "JPEG", 0, 0, imgWidth, imgHeight);
+    } else {
+        while (leftHeight > 0) {
+            PDF.addImage(pageData, "JPEG", 0, position, imgWidth, imgHeight);
+            leftHeight -= pageHeight;
+            position -= A4Height;
+            if (leftHeight > 0) PDF.addPage();
+        }
+    }
+    PDF.save(title + ".pdf");
+},
     drawEcharts() {
       // 基于准备好的dom，初始化echarts实例
       let myChartBar = echart.init(
@@ -258,11 +292,11 @@ export default defineComponent({
 <style scoped>
 .chart{
   width: 100%;
-  height: 50%;
+  height: 300px;
 }
 .moredetails{
   width: 100%;
-  height: 30%;
+  height: 25%;
   .title{
     font-size: 30px;
     color: cornflowerblue;
@@ -355,15 +389,17 @@ export default defineComponent({
   }
 }
 .section1{
+  background-color: white;
   height: 100%;
   width: 40%;
 }
 .section2{
+  background-color: white;
   height: 100%;
   width: 60%;
 }
 .base {
-  height: 100%;
+  height: 795px;
   width: 100%;
   
 }

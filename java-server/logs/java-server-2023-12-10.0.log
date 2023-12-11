@@ -1,0 +1,776 @@
+2023-12-10 00:00:12,858 [http-nio-9090-exec-7] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 00:00:12,0.143
+2023-12-10 00:00:12,881 [http-nio-9090-exec-8] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 00:00:12,0.007
+2023-12-10 00:00:13,088 [http-nio-9090-exec-4] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 00:00:13,0.059
+2023-12-10 00:10:25,548 [http-nio-9090-exec-10] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 00:10:25,0.18
+2023-12-10 00:10:25,580 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 00:10:25,0.008
+2023-12-10 00:10:25,794 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 00:10:25,0.083
+2023-12-10 00:24:24,281 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 00:24:24,0.226
+2023-12-10 00:24:24,690 [http-nio-9090-exec-9] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,202200300050,2023-12-10 00:24:24,0.494
+2023-12-10 00:24:31,942 [http-nio-9090-exec-6] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-10 00:24:31,0.017
+2023-12-10 00:24:33,681 [http-nio-9090-exec-5] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/login,,2023-12-10 00:24:33,0.246
+2023-12-10 00:24:33,733 [http-nio-9090-exec-7] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,202200300050,2023-12-10 00:24:33,0.007
+2023-12-10 00:24:34,065 [http-nio-9090-exec-8] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getMenuList,202200300050,2023-12-10 00:24:34,0.024
+2023-12-10 00:24:34,400 [http-nio-9090-exec-4] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 00:24:34,0.008
+2023-12-10 00:24:35,049 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 00:24:35,0.008
+2023-12-10 00:24:35,117 [http-nio-9090-exec-10] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 00:24:34,0.146
+2023-12-10 00:28:46,041 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 00:28:45,0.114
+2023-12-10 00:28:46,074 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,202200300050,2023-12-10 00:28:46,0.007
+2023-12-10 00:28:58,219 [http-nio-9090-exec-9] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-10 00:28:58,0.013
+2023-12-10 00:29:04,511 [http-nio-9090-exec-6] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/login,,2023-12-10 00:29:04,0.07
+2023-12-10 00:29:04,585 [http-nio-9090-exec-5] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,admin,2023-12-10 00:29:04,0.005
+2023-12-10 00:29:04,901 [http-nio-9090-exec-7] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getMenuList,admin,2023-12-10 00:29:04,0.006
+2023-12-10 00:29:05,240 [http-nio-9090-exec-8] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,admin,2023-12-10 00:29:05,0.007
+2023-12-10 00:29:05,833 [http-nio-9090-exec-4] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,admin,2023-12-10 00:29:05,0.008
+2023-12-10 00:29:05,969 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,admin,2023-12-10 00:29:05,0.005
+2023-12-10 00:29:21,921 [http-nio-9090-exec-10] ERROR o.f.teach.security.jwt.AuthEntryPointJwt           - Unauthorized error: /api/statistics/getMainPageData:Full authentication is required to access this resource
+2023-12-10 00:29:21,921 [http-nio-9090-exec-10] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,,2023-12-10 00:29:21,0.001
+2023-12-10 00:29:21,950 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-10 00:29:21,0.004
+2023-12-10 00:29:35,916 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/login,,2023-12-10 00:29:35,0.077
+2023-12-10 00:29:36,121 [http-nio-9090-exec-9] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,202200300050,2023-12-10 00:29:36,0.014
+2023-12-10 00:29:36,249 [http-nio-9090-exec-6] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getMenuList,202200300050,2023-12-10 00:29:36,0.005
+2023-12-10 00:29:36,300 [http-nio-9090-exec-5] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 00:29:36,0.005
+2023-12-10 00:29:37,696 [http-nio-9090-exec-7] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 00:29:37,0.066
+2023-12-10 00:29:37,880 [http-nio-9090-exec-8] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 00:29:37,0.004
+2023-12-10 00:31:14,794 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 00:31:14,0.005
+2023-12-10 00:31:15,016 [http-nio-9090-exec-4] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 00:31:14,0.227
+2023-12-10 00:32:02,120 [http-nio-9090-exec-10] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 00:32:02,0.092
+2023-12-10 00:32:02,316 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,202200300050,2023-12-10 00:32:02,0.018
+2023-12-10 00:32:14,896 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-10 00:32:14,0.003
+2023-12-10 00:35:24,211 [http-nio-9090-exec-9] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/login,,2023-12-10 00:35:24,0.077
+2023-12-10 00:35:24,289 [http-nio-9090-exec-6] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,202200300050,2023-12-10 00:35:24,0.006
+2023-12-10 00:35:24,616 [http-nio-9090-exec-5] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getMenuList,202200300050,2023-12-10 00:35:24,0.005
+2023-12-10 00:35:24,932 [http-nio-9090-exec-7] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 00:35:24,0.007
+2023-12-10 00:35:25,645 [http-nio-9090-exec-8] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 00:35:25,0.068
+2023-12-10 00:35:25,657 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 00:35:25,0.007
+2023-12-10 00:48:03,296 [http-nio-9090-exec-4] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 00:48:03,0.008
+2023-12-10 00:48:03,443 [http-nio-9090-exec-10] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 00:48:03,0.016
+2023-12-10 00:48:03,567 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 00:48:03,0.078
+2023-12-10 00:48:11,990 [http-nio-9090-exec-3] ERROR o.f.teach.security.jwt.AuthEntryPointJwt           - Unauthorized error: /api/statistics/getMainPageData:Full authentication is required to access this resource
+2023-12-10 00:48:11,990 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,,2023-12-10 00:48:11,0.0
+2023-12-10 00:48:12,044 [http-nio-9090-exec-9] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-10 00:48:12,0.015
+2023-12-10 00:48:14,142 [http-nio-9090-exec-6] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/login,,2023-12-10 00:48:14,0.061
+2023-12-10 00:48:14,513 [http-nio-9090-exec-7] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getMenuList,202200300050,2023-12-10 00:48:14,0.01
+2023-12-10 00:48:14,516 [http-nio-9090-exec-5] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,202200300050,2023-12-10 00:48:14,0.005
+2023-12-10 00:48:14,756 [http-nio-9090-exec-8] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 00:48:14,0.004
+2023-12-10 00:48:15,700 [http-nio-9090-exec-2] ERROR o.f.teach.security.jwt.AuthEntryPointJwt           - Unauthorized error: /api/student/getStudentIntroduceData:Full authentication is required to access this resource
+2023-12-10 00:48:15,701 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,,2023-12-10 00:48:15,0.001
+2023-12-10 00:48:15,755 [http-nio-9090-exec-4] ERROR o.f.teach.security.jwt.AuthEntryPointJwt           - Unauthorized error: /api/statistics/getMainPageData:Full authentication is required to access this resource
+2023-12-10 00:48:15,756 [http-nio-9090-exec-4] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,,2023-12-10 00:48:15,0.001
+2023-12-10 00:48:30,415 [http-nio-9090-exec-10] ERROR o.f.teach.security.jwt.AuthEntryPointJwt           - Unauthorized error: /api/base/getPhotoImageStr:Full authentication is required to access this resource
+2023-12-10 00:48:30,416 [http-nio-9090-exec-10] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,,2023-12-10 00:48:30,0.001
+2023-12-10 00:48:30,639 [http-nio-9090-exec-1] ERROR o.f.teach.security.jwt.AuthEntryPointJwt           - Unauthorized error: /api/statistics/getMainPageData:Full authentication is required to access this resource
+2023-12-10 00:48:30,639 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,,2023-12-10 00:48:30,0.001
+2023-12-10 00:48:37,203 [http-nio-9090-exec-3] ERROR o.f.teach.security.jwt.AuthEntryPointJwt           - Unauthorized error: /api/base/getPhotoImageStr:Full authentication is required to access this resource
+2023-12-10 00:48:37,203 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,,2023-12-10 00:48:37,0.001
+2023-12-10 00:48:37,230 [http-nio-9090-exec-9] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-10 00:48:37,0.003
+2023-12-10 00:48:38,607 [http-nio-9090-exec-6] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/login,,2023-12-10 00:48:38,0.074
+2023-12-10 00:48:38,627 [http-nio-9090-exec-7] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,202200300050,2023-12-10 00:48:38,0.004
+2023-12-10 00:48:38,640 [http-nio-9090-exec-5] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getMenuList,202200300050,2023-12-10 00:48:38,0.006
+2023-12-10 00:48:38,713 [http-nio-9090-exec-8] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 00:48:38,0.007
+2023-12-10 00:48:39,594 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 00:48:39,0.08
+2023-12-10 00:48:39,608 [http-nio-9090-exec-4] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 00:48:39,0.005
+2023-12-10 00:48:54,712 [http-nio-9090-exec-10] ERROR o.f.teach.security.jwt.AuthEntryPointJwt           - Unauthorized error: /api/statistics/getMainPageData:Full authentication is required to access this resource
+2023-12-10 00:48:54,712 [http-nio-9090-exec-10] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,,2023-12-10 00:48:54,0.001
+2023-12-10 00:48:54,742 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-10 00:48:54,0.005
+2023-12-10 00:48:56,792 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/login,,2023-12-10 00:48:56,0.075
+2023-12-10 00:48:57,119 [http-nio-9090-exec-6] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getMenuList,202200300050,2023-12-10 00:48:57,0.004
+2023-12-10 00:48:57,130 [http-nio-9090-exec-9] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,202200300050,2023-12-10 00:48:57,0.015
+2023-12-10 00:48:57,383 [http-nio-9090-exec-7] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 00:48:57,0.005
+2023-12-10 00:48:58,045 [http-nio-9090-exec-5] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 00:48:57,0.072
+2023-12-10 00:48:58,058 [http-nio-9090-exec-8] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 00:48:58,0.007
+2023-12-10 00:49:00,913 [http-nio-9090-exec-2] ERROR o.f.teach.security.jwt.AuthEntryPointJwt           - Unauthorized error: /api/statistics/getMainPageData:Full authentication is required to access this resource
+2023-12-10 00:49:00,913 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,,2023-12-10 00:49:00,0.0
+2023-12-10 00:49:00,946 [http-nio-9090-exec-4] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-10 00:49:00,0.007
+2023-12-10 00:49:01,806 [http-nio-9090-exec-10] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/login,,2023-12-10 00:49:01,0.075
+2023-12-10 00:49:01,826 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,teacher1,2023-12-10 00:49:01,0.009
+2023-12-10 00:49:02,138 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getMenuList,teacher1,2023-12-10 00:49:02,0.005
+2023-12-10 00:49:02,401 [http-nio-9090-exec-6] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,teacher1,2023-12-10 00:49:02,0.005
+2023-12-10 00:49:02,971 [http-nio-9090-exec-9] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,teacher1,2023-12-10 00:49:02,0.004
+2023-12-10 00:49:03,027 [http-nio-9090-exec-7] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,teacher1,2023-12-10 00:49:03,0.006
+2023-12-10 00:49:04,470 [http-nio-9090-exec-5] ERROR o.f.teach.security.jwt.AuthEntryPointJwt           - Unauthorized error: /api/statistics/getMainPageData:Full authentication is required to access this resource
+2023-12-10 00:49:04,470 [http-nio-9090-exec-5] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,,2023-12-10 00:49:04,0.0
+2023-12-10 00:49:04,505 [http-nio-9090-exec-8] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-10 00:49:04,0.005
+2023-12-10 00:49:05,315 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/login,,2023-12-10 00:49:05,0.076
+2023-12-10 00:49:05,339 [http-nio-9090-exec-4] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,admin,2023-12-10 00:49:05,0.007
+2023-12-10 00:49:05,354 [http-nio-9090-exec-10] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getMenuList,admin,2023-12-10 00:49:05,0.007
+2023-12-10 00:49:05,715 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,admin,2023-12-10 00:49:05,0.005
+2023-12-10 00:49:06,290 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,admin,2023-12-10 00:49:06,0.005
+2023-12-10 00:49:06,354 [http-nio-9090-exec-6] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,admin,2023-12-10 00:49:06,0.005
+2023-12-10 00:49:18,076 [http-nio-9090-exec-9] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,admin,2023-12-10 00:49:18,0.01
+2023-12-10 00:49:18,139 [http-nio-9090-exec-7] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,admin,2023-12-10 00:49:18,0.008
+2023-12-10 00:49:20,058 [http-nio-9090-exec-5] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-10 00:49:20,0.006
+2023-12-10 00:49:21,483 [http-nio-9090-exec-8] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/login,,2023-12-10 00:49:21,0.099
+2023-12-10 00:49:21,503 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,202200300050,2023-12-10 00:49:21,0.005
+2023-12-10 00:49:21,519 [http-nio-9090-exec-4] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getMenuList,202200300050,2023-12-10 00:49:21,0.006
+2023-12-10 00:49:21,920 [http-nio-9090-exec-10] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 00:49:21,0.007
+2023-12-10 00:49:22,469 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 00:49:22,0.011
+2023-12-10 00:49:22,527 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 00:49:22,0.121
+2023-12-10 00:49:27,460 [http-nio-9090-exec-6] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/uploadPhotoWeb,202200300050,2023-12-10 00:49:27,0.131
+2023-12-10 00:49:27,974 [http-nio-9090-exec-7] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 00:49:27,0.009
+2023-12-10 00:49:28,007 [http-nio-9090-exec-9] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 00:49:27,0.126
+2023-12-10 00:49:43,873 [http-nio-9090-exec-5] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 00:49:43,0.161
+2023-12-10 00:49:43,978 [http-nio-9090-exec-8] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 00:49:43,0.006
+2023-12-10 00:49:57,242 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 00:49:57,0.111
+2023-12-10 00:49:57,274 [http-nio-9090-exec-4] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 00:49:57,0.005
+2023-12-10 00:49:57,415 [http-nio-9090-exec-10] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 00:49:57,0.006
+2023-12-10 00:50:01,154 [http-nio-9090-exec-3] ERROR o.f.teach.security.jwt.AuthEntryPointJwt           - Unauthorized error: /api/statistics/getMainPageData:Full authentication is required to access this resource
+2023-12-10 00:50:01,155 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,,2023-12-10 00:50:01,0.001
+2023-12-10 00:50:01,511 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-10 00:50:01,0.004
+2023-12-10 00:50:02,542 [http-nio-9090-exec-6] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/login,,2023-12-10 00:50:02,0.091
+2023-12-10 00:50:02,914 [http-nio-9090-exec-7] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,202200300050,2023-12-10 00:50:02,0.016
+2023-12-10 00:50:02,917 [http-nio-9090-exec-9] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getMenuList,202200300050,2023-12-10 00:50:02,0.005
+2023-12-10 00:50:03,170 [http-nio-9090-exec-5] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 00:50:03,0.006
+2023-12-10 00:50:03,962 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 00:50:03,0.007
+2023-12-10 00:50:03,971 [http-nio-9090-exec-8] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 00:50:03,0.107
+2023-12-10 00:50:04,048 [http-nio-9090-exec-4] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 00:50:04,0.008
+2023-12-10 00:51:40,112 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 00:51:40,0.006
+2023-12-10 00:51:40,127 [http-nio-9090-exec-10] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 00:51:39,0.147
+2023-12-10 00:51:40,228 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 00:51:40,0.005
+2023-12-10 00:51:49,350 [http-nio-9090-exec-6] ERROR o.f.teach.security.jwt.AuthEntryPointJwt           - Unauthorized error: /api/statistics/getMainPageData:Full authentication is required to access this resource
+2023-12-10 00:51:49,350 [http-nio-9090-exec-6] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,,2023-12-10 00:51:49,0.0
+2023-12-10 00:51:49,402 [http-nio-9090-exec-7] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-10 00:51:49,0.004
+2023-12-10 00:52:12,092 [http-nio-9090-exec-9] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/login,,2023-12-10 00:52:12,0.09
+2023-12-10 00:52:12,163 [http-nio-9090-exec-5] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,202200300050,2023-12-10 00:52:12,0.01
+2023-12-10 00:52:12,166 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getMenuList,202200300050,2023-12-10 00:52:12,0.006
+2023-12-10 00:52:12,527 [http-nio-9090-exec-8] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 00:52:12,0.003
+2023-12-10 00:52:13,734 [http-nio-9090-exec-4] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 00:52:13,0.115
+2023-12-10 00:52:13,763 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 00:52:13,0.006
+2023-12-10 00:52:13,800 [http-nio-9090-exec-10] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 00:52:13,0.008
+2023-12-10 00:53:01,119 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 00:53:00,0.144
+2023-12-10 00:53:01,129 [http-nio-9090-exec-6] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 00:53:01,0.006
+2023-12-10 00:53:01,250 [http-nio-9090-exec-7] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 00:53:01,0.007
+2023-12-10 00:54:07,928 [http-nio-9090-exec-9] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 00:54:07,0.081
+2023-12-10 00:54:08,018 [http-nio-9090-exec-5] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 00:54:08,0.006
+2023-12-10 00:54:08,305 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 00:54:08,0.006
+2023-12-10 00:56:17,281 [http-nio-9090-exec-8] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 00:56:17,0.071
+2023-12-10 00:56:17,358 [http-nio-9090-exec-4] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 00:56:17,0.02
+2023-12-10 00:56:17,481 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 00:56:17,0.006
+2023-12-10 00:58:28,635 [http-nio-9090-exec-10] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 00:58:28,0.121
+2023-12-10 00:58:28,636 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 00:58:28,0.014
+2023-12-10 00:58:28,684 [http-nio-9090-exec-6] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 00:58:28,0.004
+2023-12-10 01:07:16,562 [http-nio-9090-exec-7] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 01:07:16,0.008
+2023-12-10 01:07:16,632 [http-nio-9090-exec-9] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 01:07:16,0.064
+2023-12-10 01:07:40,226 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 01:07:40,0.003
+2023-12-10 01:07:40,306 [http-nio-9090-exec-5] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 01:07:40,0.083
+2023-12-10 01:07:40,669 [http-nio-9090-exec-8] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 01:07:40,0.078
+2023-12-10 01:07:40,702 [http-nio-9090-exec-4] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 01:07:40,0.004
+2023-12-10 01:32:56,194 [http-nio-9090-exec-10] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 01:32:55,0.242
+2023-12-10 01:32:56,338 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 01:32:55,0.387
+2023-12-10 01:32:56,801 [http-nio-9090-exec-6] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 01:32:56,0.012
+2023-12-10 01:32:56,971 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 01:32:56,0.759
+2023-12-10 01:43:31,909 [http-nio-9090-exec-7] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 01:43:31,0.114
+2023-12-10 01:43:31,917 [http-nio-9090-exec-9] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 01:43:31,0.011
+2023-12-10 01:43:32,090 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 01:43:32,0.007
+2023-12-10 01:43:32,178 [http-nio-9090-exec-5] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 01:43:32,0.094
+2023-12-10 02:01:13,180 [http-nio-9090-exec-8] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 02:01:13,0.022
+2023-12-10 02:01:14,934 [http-nio-9090-exec-4] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 02:01:14,0.012
+2023-12-10 02:01:15,355 [http-nio-9090-exec-10] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 02:01:15,0.1
+2023-12-10 02:01:17,837 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 02:01:17,0.009
+2023-12-10 02:01:18,317 [http-nio-9090-exec-6] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 02:01:18,0.075
+2023-12-10 02:04:01,686 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 02:04:01,0.012
+2023-12-10 02:04:01,886 [http-nio-9090-exec-7] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/score/getScoreList,202200300050,2023-12-10 02:04:01,0.013
+2023-12-10 02:04:02,035 [http-nio-9090-exec-9] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/score/getStudentItemOptionList,202200300050,2023-12-10 02:04:02,0.006
+2023-12-10 02:04:02,219 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/score/getCourseItemOptionList,202200300050,2023-12-10 02:04:02,0.018
+2023-12-10 02:05:39,265 [http-nio-9090-exec-5] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 02:05:39,0.006
+2023-12-10 02:05:39,670 [http-nio-9090-exec-8] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 02:05:39,0.154
+2023-12-10 02:05:39,704 [http-nio-9090-exec-4] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 02:05:39,0.007
+2023-12-10 02:05:40,117 [http-nio-9090-exec-10] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 02:05:40,0.007
+2023-12-10 02:05:40,526 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 02:05:40,0.087
+2023-12-10 02:05:40,892 [http-nio-9090-exec-6] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 02:05:40,0.005
+2023-12-10 02:05:42,060 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 02:05:42,0.005
+2023-12-10 02:05:42,392 [http-nio-9090-exec-7] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 02:05:42,0.074
+2023-12-10 02:14:48,400 [http-nio-9090-exec-9] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 02:14:48,0.005
+2023-12-10 02:14:51,204 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 02:14:51,0.015
+2023-12-10 02:14:51,541 [http-nio-9090-exec-5] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 02:14:51,0.106
+2023-12-10 02:14:51,574 [http-nio-9090-exec-8] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 02:14:51,0.005
+2023-12-10 02:15:43,970 [http-nio-9090-exec-10] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 02:15:43,0.006
+2023-12-10 02:15:44,080 [http-nio-9090-exec-4] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 02:15:43,0.116
+2023-12-10 02:15:44,140 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 02:15:44,0.005
+2023-12-10 02:15:49,981 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-10 02:15:49,989 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown initiated...
+2023-12-10 02:15:49,993 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown completed.
+2023-12-10 02:28:31,528 [background-preinit] INFO  o.h.validator.internal.util.Version                - HV000001: Hibernate Validator 6.2.0.Final
+2023-12-10 02:28:31,539 [main] INFO  o.f.t.SpringBootSecurityJwtApplication             - Starting SpringBootSecurityJwtApplication using Java 17.0.4.1 on 大本钟下寄快递 with PID 31140 (D:\web\web-course-design\java-server\target\classes started by 19414 in D:\web\web-course-design\java-server)
+2023-12-10 02:28:31,540 [main] INFO  o.f.t.SpringBootSecurityJwtApplication             - No active profile set, falling back to default profiles: default
+2023-12-10 02:28:33,101 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-12-10 02:28:33,105 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-10 02:28:33,265 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 151 ms. Found 20 JPA repository interfaces.
+2023-12-10 02:28:33,694 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@1f1ff879' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-12-10 02:28:33,700 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-12-10 02:28:34,147 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port(s): 9090 (http)
+2023-12-10 02:28:34,159 [main] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["http-nio-9090"]
+2023-12-10 02:28:34,159 [main] INFO  org.apache.catalina.core.StandardService           - Starting service [Tomcat]
+2023-12-10 02:28:34,159 [main] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/9.0.46]
+2023-12-10 02:28:34,251 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2023-12-10 02:28:34,252 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 2621 ms
+2023-12-10 02:28:34,363 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-12-10 02:28:34,454 [main] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Starting...
+2023-12-10 02:28:34,686 [main] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Start completed.
+2023-12-10 02:28:34,795 [main] INFO  o.hibernate.jpa.internal.util.LogHelper            - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-10 02:28:34,915 [main] INFO  org.hibernate.Version                              - HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-12-10 02:28:35,085 [main] INFO  org.hibernate.annotations.common.Version           - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-12-10 02:28:35,249 [main] INFO  org.hibernate.dialect.Dialect                      - HHH000400: Using dialect: org.fatmansoft.teach.sqlite.SQLDialect
+2023-12-10 02:28:35,993 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-12-10 02:28:35,999 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-10 02:28:37,557 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping              - Adding welcome page: class path resource [public/index.html]
+2023-12-10 02:28:37,699 [main] INFO  o.s.s.web.DefaultSecurityFilterChain               - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1bcca516, org.springframework.security.web.context.SecurityContextPersistenceFilter@1cb73a92, org.springframework.security.web.header.HeaderWriterFilter@445c693, org.springframework.web.filter.CorsFilter@cef23a8, org.springframework.security.web.authentication.logout.LogoutFilter@14091e24, org.fatmansoft.teach.security.jwt.AuthTokenFilter@7962c1d5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@36017835, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@272f5373, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@762d2e4c, org.springframework.security.web.session.SessionManagementFilter@e98adb2, org.springframework.security.web.access.ExceptionTranslationFilter@55ff64fd, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@87df88d]
+2023-12-10 02:28:38,011 [main] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["http-nio-9090"]
+2023-12-10 02:28:38,059 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat started on port(s): 9090 (http) with context path ''
+2023-12-10 02:28:38,070 [main] INFO  o.f.t.SpringBootSecurityJwtApplication             - Started SpringBootSecurityJwtApplication in 7.34 seconds (JVM running for 8.136)
+2023-12-10 02:28:38,074 [main] INFO  o.f.teach.SystemApplicationListener                - SystemInitStart
+2023-12-10 02:28:38,155 [main] INFO  o.f.teach.SystemApplicationListener                - systemInitEnd
+2023-12-10 02:29:04,317 [http-nio-9090-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-10 02:29:04,317 [http-nio-9090-exec-1] INFO  o.s.web.servlet.DispatcherServlet                  - Initializing Servlet 'dispatcherServlet'
+2023-12-10 02:29:04,318 [http-nio-9090-exec-1] INFO  o.s.web.servlet.DispatcherServlet                  - Completed initialization in 1 ms
+2023-12-10 02:29:04,366 [http-nio-9090-exec-1] ERROR o.f.teach.security.jwt.AuthEntryPointJwt           - Unauthorized error: /api/base/getPhotoImageStr:Full authentication is required to access this resource
+2023-12-10 02:29:04,368 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,,2023-12-10 02:29:04,0.011
+2023-12-10 02:29:04,839 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 02:29:04,0.304
+2023-12-10 02:29:04,926 [http-nio-9090-exec-5] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 02:29:04,0.053
+2023-12-10 02:29:05,109 [http-nio-9090-exec-4] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,202200300050,2023-12-10 02:29:04,0.464
+2023-12-10 02:29:05,109 [http-nio-9090-exec-6] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-10 02:29:04,0.572
+2023-12-10 02:29:08,177 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-10 02:29:08,0.008
+2023-12-10 02:29:13,526 [http-nio-9090-exec-7] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/login,,2023-12-10 02:29:13,0.224
+2023-12-10 02:29:13,613 [http-nio-9090-exec-9] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,admin,2023-12-10 02:29:13,0.019
+2023-12-10 02:29:13,941 [http-nio-9090-exec-8] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getMenuList,admin,2023-12-10 02:29:13,0.014
+2023-12-10 02:29:14,333 [http-nio-9090-exec-10] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,admin,2023-12-10 02:29:14,0.017
+2023-12-10 02:29:14,823 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,admin,2023-12-10 02:29:14,0.018
+2023-12-10 02:29:14,856 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,admin,2023-12-10 02:29:14,0.024
+2023-12-10 02:29:14,907 [http-nio-9090-exec-5] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,admin,2023-12-10 02:29:14,0.006
+2023-12-10 02:30:27,159 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-10 02:30:27,162 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown initiated...
+2023-12-10 02:30:27,165 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown completed.
+2023-12-10 13:14:08,753 [background-preinit] INFO  o.h.validator.internal.util.Version                - HV000001: Hibernate Validator 6.2.0.Final
+2023-12-10 13:14:08,764 [main] INFO  o.f.t.SpringBootSecurityJwtApplication             - Starting SpringBootSecurityJwtApplication using Java 17.0.4.1 on 大本钟下寄快递 with PID 7808 (D:\web\web-course-design\java-server\target\classes started by 19414 in D:\web\web-course-design\java-server)
+2023-12-10 13:14:08,766 [main] INFO  o.f.t.SpringBootSecurityJwtApplication             - No active profile set, falling back to default profiles: default
+2023-12-10 13:14:10,322 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-12-10 13:14:10,324 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-10 13:14:10,447 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 117 ms. Found 20 JPA repository interfaces.
+2023-12-10 13:14:10,921 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@2c7106d9' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-12-10 13:14:10,927 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-12-10 13:14:11,418 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port(s): 9090 (http)
+2023-12-10 13:14:11,434 [main] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["http-nio-9090"]
+2023-12-10 13:14:11,434 [main] INFO  org.apache.catalina.core.StandardService           - Starting service [Tomcat]
+2023-12-10 13:14:11,435 [main] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/9.0.46]
+2023-12-10 13:14:11,559 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2023-12-10 13:14:11,559 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 2755 ms
+2023-12-10 13:14:11,705 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-12-10 13:14:11,800 [main] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Starting...
+2023-12-10 13:14:12,012 [main] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Start completed.
+2023-12-10 13:14:12,123 [main] INFO  o.hibernate.jpa.internal.util.LogHelper            - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-10 13:14:12,269 [main] INFO  org.hibernate.Version                              - HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-12-10 13:14:12,479 [main] INFO  org.hibernate.annotations.common.Version           - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-12-10 13:14:12,677 [main] INFO  org.hibernate.dialect.Dialect                      - HHH000400: Using dialect: org.fatmansoft.teach.sqlite.SQLDialect
+2023-12-10 13:14:13,728 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-12-10 13:14:13,735 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-10 13:14:15,583 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping              - Adding welcome page: class path resource [public/index.html]
+2023-12-10 13:14:15,726 [main] INFO  o.s.s.web.DefaultSecurityFilterChain               - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3cf1b5fb, org.springframework.security.web.context.SecurityContextPersistenceFilter@36017835, org.springframework.security.web.header.HeaderWriterFilter@272485a6, org.springframework.web.filter.CorsFilter@4598961d, org.springframework.security.web.authentication.logout.LogoutFilter@408980aa, org.fatmansoft.teach.security.jwt.AuthTokenFilter@6166aac5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@574134ba, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1f05d08c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7be85f15, org.springframework.security.web.session.SessionManagementFilter@1cb73a92, org.springframework.security.web.access.ExceptionTranslationFilter@386ea60f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@a1689e8]
+2023-12-10 13:14:16,079 [main] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["http-nio-9090"]
+2023-12-10 13:14:16,158 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat started on port(s): 9090 (http) with context path ''
+2023-12-10 13:14:16,175 [main] INFO  o.f.t.SpringBootSecurityJwtApplication             - Started SpringBootSecurityJwtApplication in 7.923 seconds (JVM running for 11.432)
+2023-12-10 13:14:16,175 [main] INFO  o.f.teach.SystemApplicationListener                - SystemInitStart
+2023-12-10 13:14:16,286 [main] INFO  o.f.teach.SystemApplicationListener                - systemInitEnd
+2023-12-10 13:14:39,924 [http-nio-9090-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-10 13:14:39,924 [http-nio-9090-exec-1] INFO  o.s.web.servlet.DispatcherServlet                  - Initializing Servlet 'dispatcherServlet'
+2023-12-10 13:14:39,927 [http-nio-9090-exec-1] INFO  o.s.web.servlet.DispatcherServlet                  - Completed initialization in 3 ms
+2023-12-10 13:14:40,264 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,admin,2023-12-10 13:14:39,0.311
+2023-12-10 13:14:40,685 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,admin,2023-12-10 13:14:40,0.012
+2023-12-10 13:14:41,158 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,admin,2023-12-10 13:14:40,0.494
+2023-12-10 13:14:47,634 [http-nio-9090-exec-4] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-10 13:14:47,0.005
+2023-12-10 13:14:51,649 [http-nio-9090-exec-5] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/login,,2023-12-10 13:14:51,0.202
+2023-12-10 13:14:51,712 [http-nio-9090-exec-6] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,admin,2023-12-10 13:14:51,0.007
+2023-12-10 13:14:51,988 [http-nio-9090-exec-7] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getMenuList,admin,2023-12-10 13:14:51,0.016
+2023-12-10 13:14:52,130 [http-nio-9090-exec-8] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,admin,2023-12-10 13:14:52,0.017
+2023-12-10 13:14:52,947 [http-nio-9090-exec-9] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,admin,2023-12-10 13:14:52,0.015
+2023-12-10 13:14:52,969 [http-nio-9090-exec-10] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,admin,2023-12-10 13:14:52,0.006
+2023-12-10 13:14:53,022 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,admin,2023-12-10 13:14:53,0.007
+2023-12-10 13:14:56,336 [http-nio-9090-exec-3] ERROR o.f.teach.security.jwt.AuthEntryPointJwt           - Unauthorized error: /api/statistics/getMainPageData:Full authentication is required to access this resource
+2023-12-10 13:14:56,336 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,,2023-12-10 13:14:56,0.001
+2023-12-10 13:14:56,378 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-10 13:14:56,0.017
+2023-12-10 13:14:58,172 [http-nio-9090-exec-4] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/login,,2023-12-10 13:14:58,0.089
+2023-12-10 13:14:58,193 [http-nio-9090-exec-5] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,202200300050,2023-12-10 13:14:58,0.007
+2023-12-10 13:14:58,519 [http-nio-9090-exec-6] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getMenuList,202200300050,2023-12-10 13:14:58,0.015
+2023-12-10 13:14:58,764 [http-nio-9090-exec-7] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 13:14:58,0.006
+2023-12-10 13:14:59,471 [http-nio-9090-exec-9] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 13:14:59,0.011
+2023-12-10 13:14:59,530 [http-nio-9090-exec-8] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 13:14:59,0.137
+2023-12-10 13:14:59,600 [http-nio-9090-exec-10] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 13:14:59,0.028
+2023-12-10 13:16:32,416 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 13:16:32,0.01
+2023-12-10 13:16:32,522 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 13:16:32,0.1
+2023-12-10 13:16:33,063 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 13:16:33,0.007
+2023-12-10 13:28:50,890 [http-nio-9090-exec-4] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 13:28:50,0.008
+2023-12-10 13:29:37,428 [http-nio-9090-exec-5] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 13:29:37,0.006
+2023-12-10 13:30:07,340 [http-nio-9090-exec-6] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 13:30:07,0.007
+2023-12-10 13:30:17,388 [http-nio-9090-exec-7] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 13:30:17,0.006
+2023-12-10 13:30:36,303 [http-nio-9090-exec-9] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 13:30:36,0.006
+2023-12-10 13:30:53,219 [http-nio-9090-exec-8] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 13:30:53,0.006
+2023-12-10 13:31:12,236 [http-nio-9090-exec-10] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 13:31:12,0.006
+2023-12-10 13:32:23,194 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 13:32:23,0.006
+2023-12-10 13:34:11,053 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 13:34:11,0.005
+2023-12-10 13:34:32,827 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 13:34:32,0.005
+2023-12-10 13:34:51,798 [http-nio-9090-exec-4] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 13:34:51,0.006
+2023-12-10 13:35:55,396 [http-nio-9090-exec-5] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 13:35:55,0.005
+2023-12-10 13:36:00,965 [http-nio-9090-exec-6] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 13:36:00,0.005
+2023-12-10 13:50:11,797 [http-nio-9090-exec-7] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 13:50:11,0.003
+2023-12-10 13:53:46,391 [http-nio-9090-exec-9] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 13:53:46,0.006
+2023-12-10 13:54:13,914 [http-nio-9090-exec-8] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 13:54:13,0.007
+2023-12-10 13:56:35,362 [http-nio-9090-exec-10] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 13:56:35,0.009
+2023-12-10 13:56:41,431 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 13:56:41,0.008
+2023-12-10 14:00:23,062 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 14:00:23,0.006
+2023-12-10 14:00:33,285 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 14:00:33,0.0
+2023-12-10 14:02:43,075 [http-nio-9090-exec-4] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 14:02:43,0.007
+2023-12-10 14:04:27,844 [http-nio-9090-exec-5] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 14:04:27,0.005
+2023-12-10 14:04:59,806 [http-nio-9090-exec-6] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 14:04:59,0.0
+2023-12-10 14:05:11,244 [http-nio-9090-exec-7] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 14:05:11,0.006
+2023-12-10 14:05:18,373 [http-nio-9090-exec-9] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 14:05:18,0.007
+2023-12-10 14:05:41,035 [http-nio-9090-exec-8] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 14:05:41,0.001
+2023-12-10 14:05:58,742 [http-nio-9090-exec-10] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 14:05:58,0.009
+2023-12-10 14:10:06,854 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 14:10:06,0.009
+2023-12-10 14:10:19,979 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 14:10:19,0.0
+2023-12-10 14:10:33,207 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 14:10:33,0.006
+2023-12-10 14:11:01,402 [http-nio-9090-exec-4] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 14:11:01,0.009
+2023-12-10 14:11:50,983 [http-nio-9090-exec-5] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 14:11:50,0.004
+2023-12-10 14:12:05,993 [http-nio-9090-exec-6] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 14:12:05,0.007
+2023-12-10 14:12:22,917 [http-nio-9090-exec-7] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 14:12:22,0.003
+2023-12-10 14:12:31,467 [http-nio-9090-exec-9] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 14:12:31,0.008
+2023-12-10 14:15:58,572 [http-nio-9090-exec-8] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 14:15:58,0.009
+2023-12-10 14:21:13,006 [http-nio-9090-exec-10] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 14:21:12,0.006
+2023-12-10 14:22:00,091 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 14:22:00,0.007
+2023-12-10 14:22:05,269 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 14:22:05,0.004
+2023-12-10 14:22:18,437 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 14:22:18,0.007
+2023-12-10 14:22:57,681 [http-nio-9090-exec-4] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 14:22:57,0.0
+2023-12-10 14:23:03,303 [http-nio-9090-exec-5] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 14:23:03,0.006
+2023-12-10 14:23:26,591 [http-nio-9090-exec-6] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 14:23:26,0.005
+2023-12-10 14:23:43,597 [http-nio-9090-exec-7] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 14:23:43,0.008
+2023-12-10 14:25:56,375 [http-nio-9090-exec-9] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 14:25:56,0.005
+2023-12-10 14:27:23,238 [http-nio-9090-exec-8] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 14:27:23,0.005
+2023-12-10 14:27:42,492 [http-nio-9090-exec-10] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 14:27:42,0.0
+2023-12-10 14:29:25,164 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 14:29:25,0.0
+2023-12-10 14:30:05,083 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 14:30:05,0.006
+2023-12-10 14:30:15,017 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 14:30:15,0.006
+2023-12-10 14:30:22,937 [http-nio-9090-exec-4] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 14:30:22,0.0
+2023-12-10 14:31:10,792 [http-nio-9090-exec-5] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 14:31:10,0.004
+2023-12-10 14:34:45,945 [http-nio-9090-exec-6] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 14:34:45,0.005
+2023-12-10 14:37:20,787 [http-nio-9090-exec-7] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 14:37:20,0.0
+2023-12-10 14:38:06,760 [http-nio-9090-exec-9] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 14:38:06,0.006
+2023-12-10 14:38:51,107 [http-nio-9090-exec-8] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 14:38:51,0.0
+2023-12-10 14:39:09,076 [http-nio-9090-exec-10] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 14:39:09,0.004
+2023-12-10 14:39:25,527 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 14:39:25,0.005
+2023-12-10 14:39:45,548 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 14:39:45,0.005
+2023-12-10 14:39:58,926 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 14:39:58,0.0
+2023-12-10 14:40:54,995 [http-nio-9090-exec-4] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 14:40:54,0.005
+2023-12-10 14:41:10,934 [http-nio-9090-exec-5] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 14:41:10,0.006
+2023-12-10 14:48:08,897 [http-nio-9090-exec-6] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 14:48:08,0.014
+2023-12-10 14:48:08,991 [http-nio-9090-exec-7] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 14:48:08,0.087
+2023-12-10 14:48:10,846 [http-nio-9090-exec-9] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 14:48:10,0.007
+2023-12-10 14:48:10,917 [http-nio-9090-exec-8] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 14:48:10,0.063
+2023-12-10 14:48:12,399 [http-nio-9090-exec-10] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 14:48:12,0.01
+2023-12-10 14:48:12,696 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/score/getScoreList,202200300050,2023-12-10 14:48:12,0.015
+2023-12-10 14:48:12,715 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/score/getStudentItemOptionList,202200300050,2023-12-10 14:48:12,0.01
+2023-12-10 14:48:12,855 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/score/getCourseItemOptionList,202200300050,2023-12-10 14:48:12,0.011
+2023-12-10 14:48:26,326 [http-nio-9090-exec-4] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 14:48:26,0.0
+2023-12-10 14:49:50,250 [http-nio-9090-exec-5] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 14:49:50,0.006
+2023-12-10 14:49:50,557 [http-nio-9090-exec-6] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 14:49:50,0.057
+2023-12-10 14:55:17,553 [http-nio-9090-exec-7] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 14:55:17,0.007
+2023-12-10 14:55:20,876 [http-nio-9090-exec-9] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 14:55:20,0.005
+2023-12-10 14:55:21,248 [http-nio-9090-exec-8] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 14:55:21,0.066
+2023-12-10 14:57:35,054 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-10 14:57:35,054 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown initiated...
+2023-12-10 14:57:35,054 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown completed.
+2023-12-10 15:05:55,511 [background-preinit] INFO  o.h.validator.internal.util.Version                - HV000001: Hibernate Validator 6.2.0.Final
+2023-12-10 15:05:55,527 [main] INFO  o.f.t.SpringBootSecurityJwtApplication             - Starting SpringBootSecurityJwtApplication using Java 17.0.4.1 on 大本钟下寄快递 with PID 18156 (D:\web\web-course-design\java-server\target\classes started by 19414 in D:\web\web-course-design\java-server)
+2023-12-10 15:05:55,528 [main] INFO  o.f.t.SpringBootSecurityJwtApplication             - No active profile set, falling back to default profiles: default
+2023-12-10 15:05:56,683 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-12-10 15:05:56,685 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-10 15:05:56,894 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 199 ms. Found 20 JPA repository interfaces.
+2023-12-10 15:05:57,446 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@43f9dd56' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-12-10 15:05:57,450 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-12-10 15:05:57,979 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port(s): 9090 (http)
+2023-12-10 15:05:58,003 [main] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["http-nio-9090"]
+2023-12-10 15:05:58,005 [main] INFO  org.apache.catalina.core.StandardService           - Starting service [Tomcat]
+2023-12-10 15:05:58,006 [main] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/9.0.46]
+2023-12-10 15:05:58,198 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2023-12-10 15:05:58,199 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 2604 ms
+2023-12-10 15:05:58,346 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-12-10 15:05:58,413 [main] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Starting...
+2023-12-10 15:05:58,598 [main] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Start completed.
+2023-12-10 15:05:58,695 [main] INFO  o.hibernate.jpa.internal.util.LogHelper            - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-10 15:05:58,773 [main] INFO  org.hibernate.Version                              - HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-12-10 15:05:58,943 [main] INFO  org.hibernate.annotations.common.Version           - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-12-10 15:05:59,105 [main] INFO  org.hibernate.dialect.Dialect                      - HHH000400: Using dialect: org.fatmansoft.teach.sqlite.SQLDialect
+2023-12-10 15:05:59,926 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-12-10 15:05:59,937 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-10 15:06:01,936 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping              - Adding welcome page: class path resource [public/index.html]
+2023-12-10 15:06:02,140 [main] INFO  o.s.s.web.DefaultSecurityFilterChain               - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@134ec0f3, org.springframework.security.web.context.SecurityContextPersistenceFilter@70a91d72, org.springframework.security.web.header.HeaderWriterFilter@34c2e03d, org.springframework.web.filter.CorsFilter@258ac1e6, org.springframework.security.web.authentication.logout.LogoutFilter@2d093067, org.fatmansoft.teach.security.jwt.AuthTokenFilter@6cb417fc, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@402d76c7, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@406d922, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@491f3fb0, org.springframework.security.web.session.SessionManagementFilter@779cb140, org.springframework.security.web.access.ExceptionTranslationFilter@408980aa, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@25b87e1b]
+2023-12-10 15:06:02,533 [main] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["http-nio-9090"]
+2023-12-10 15:06:02,625 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat started on port(s): 9090 (http) with context path ''
+2023-12-10 15:06:02,637 [main] INFO  o.f.t.SpringBootSecurityJwtApplication             - Started SpringBootSecurityJwtApplication in 7.867 seconds (JVM running for 8.534)
+2023-12-10 15:06:02,641 [main] INFO  o.f.teach.SystemApplicationListener                - SystemInitStart
+2023-12-10 15:06:02,792 [main] INFO  o.f.teach.SystemApplicationListener                - systemInitEnd
+2023-12-10 15:06:13,139 [http-nio-9090-exec-3] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-10 15:06:13,139 [http-nio-9090-exec-3] INFO  o.s.web.servlet.DispatcherServlet                  - Initializing Servlet 'dispatcherServlet'
+2023-12-10 15:06:13,141 [http-nio-9090-exec-3] INFO  o.s.web.servlet.DispatcherServlet                  - Completed initialization in 2 ms
+2023-12-10 15:06:13,180 [http-nio-9090-exec-3] ERROR o.f.teach.security.jwt.AuthEntryPointJwt           - Unauthorized error: /api/base/getPhotoImageStr:Full authentication is required to access this resource
+2023-12-10 15:06:13,183 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,,2023-12-10 15:06:13,0.01
+2023-12-10 15:06:13,783 [http-nio-9090-exec-4] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-10 15:06:13,0.424
+2023-12-10 15:07:06,119 [http-nio-9090-exec-9] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,202200300050,2023-12-10 15:07:06,0.027
+2023-12-10 15:07:06,251 [http-nio-9090-exec-5] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 15:07:06,0.203
+2023-12-10 15:07:06,320 [http-nio-9090-exec-10] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 15:07:06,0.043
+2023-12-10 15:07:09,989 [http-nio-9090-exec-7] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-10 15:07:09,0.005
+2023-12-10 15:07:11,134 [http-nio-9090-exec-6] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/login,,2023-12-10 15:07:10,0.208
+2023-12-10 15:07:11,212 [http-nio-9090-exec-8] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,202200300050,2023-12-10 15:07:11,0.014
+2023-12-10 15:07:11,529 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getMenuList,202200300050,2023-12-10 15:07:11,0.015
+2023-12-10 15:07:12,014 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 15:07:11,0.019
+2023-12-10 15:07:12,562 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 15:07:12,0.117
+2023-12-10 15:07:12,591 [http-nio-9090-exec-4] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 15:07:12,0.009
+2023-12-10 15:07:12,614 [http-nio-9090-exec-9] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 15:07:12,0.012
+2023-12-10 15:07:17,340 [http-nio-9090-exec-5] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 15:07:17,0.013
+2023-12-10 15:07:17,438 [http-nio-9090-exec-10] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 15:07:17,0.092
+2023-12-10 15:07:23,420 [http-nio-9090-exec-7] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 15:07:23,0.008
+2023-12-10 15:10:58,841 [http-nio-9090-exec-6] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/login,,2023-12-10 15:10:58,0.078
+2023-12-10 15:10:58,871 [http-nio-9090-exec-8] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,202200300050,2023-12-10 15:10:58,0.006
+2023-12-10 15:10:59,197 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getMenuList,202200300050,2023-12-10 15:10:59,0.009
+2023-12-10 15:10:59,556 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 15:10:59,0.011
+2023-12-10 15:11:00,035 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 15:10:59,0.099
+2023-12-10 15:11:00,057 [http-nio-9090-exec-4] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 15:11:00,0.007
+2023-12-10 15:11:00,081 [http-nio-9090-exec-9] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 15:11:00,0.008
+2023-12-10 15:11:06,584 [http-nio-9090-exec-10] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,202200300050,2023-12-10 15:11:06,0.008
+2023-12-10 15:11:06,604 [http-nio-9090-exec-5] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 15:11:06,0.084
+2023-12-10 15:11:06,693 [http-nio-9090-exec-7] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 15:11:06,0.008
+2023-12-10 15:11:10,900 [http-nio-9090-exec-6] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-10 15:11:10,0.014
+2023-12-10 15:11:13,102 [http-nio-9090-exec-8] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/testValidateInfo,,2023-12-10 15:11:13,0.002
+2023-12-10 15:11:13,123 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-10 15:11:13,0.013
+2023-12-10 15:11:14,651 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/login,,2023-12-10 15:11:14,0.071
+2023-12-10 15:11:14,843 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,202200300050,2023-12-10 15:11:14,0.015
+2023-12-10 15:11:15,023 [http-nio-9090-exec-4] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getMenuList,202200300050,2023-12-10 15:11:15,0.005
+2023-12-10 15:11:15,321 [http-nio-9090-exec-9] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 15:11:15,0.008
+2023-12-10 15:11:15,961 [http-nio-9090-exec-10] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 15:11:15,0.08
+2023-12-10 15:11:16,015 [http-nio-9090-exec-5] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 15:11:16,0.006
+2023-12-10 15:11:16,106 [http-nio-9090-exec-7] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 15:11:16,0.005
+2023-12-10 15:12:18,797 [http-nio-9090-exec-6] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 15:12:18,0.008
+2023-12-10 15:12:18,907 [http-nio-9090-exec-8] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 15:12:18,0.102
+2023-12-10 15:12:31,837 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 15:12:31,0.006
+2023-12-10 15:12:32,102 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 15:12:32,0.006
+2023-12-10 15:12:32,362 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 15:12:32,0.079
+2023-12-10 15:12:32,514 [http-nio-9090-exec-4] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 15:12:32,0.007
+2023-12-10 15:12:35,786 [http-nio-9090-exec-9] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 15:12:35,0.006
+2023-12-10 15:12:35,854 [http-nio-9090-exec-10] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 15:12:35,0.062
+2023-12-10 15:12:37,775 [http-nio-9090-exec-5] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 15:12:37,0.006
+2023-12-10 15:12:38,100 [http-nio-9090-exec-7] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 15:12:38,0.067
+2023-12-10 15:16:03,067 [http-nio-9090-exec-6] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 15:16:03,0.009
+2023-12-10 15:16:03,242 [http-nio-9090-exec-8] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/score/getScoreList,202200300050,2023-12-10 15:16:03,0.008
+2023-12-10 15:16:03,319 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/score/getStudentItemOptionList,202200300050,2023-12-10 15:16:03,0.007
+2023-12-10 15:16:03,392 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/score/getCourseItemOptionList,202200300050,2023-12-10 15:16:03,0.005
+2023-12-10 15:16:14,162 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 15:16:14,0.007
+2023-12-10 15:16:15,826 [http-nio-9090-exec-4] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 15:16:15,0.007
+2023-12-10 15:16:16,139 [http-nio-9090-exec-9] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/score/getScoreList,202200300050,2023-12-10 15:16:16,0.005
+2023-12-10 15:16:16,405 [http-nio-9090-exec-10] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/score/getStudentItemOptionList,202200300050,2023-12-10 15:16:16,0.004
+2023-12-10 15:16:16,453 [http-nio-9090-exec-5] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/score/getCourseItemOptionList,202200300050,2023-12-10 15:16:16,0.004
+2023-12-10 15:16:19,409 [http-nio-9090-exec-7] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 15:16:19,0.007
+2023-12-10 15:16:20,010 [http-nio-9090-exec-6] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 15:16:19,0.289
+2023-12-10 15:16:22,026 [http-nio-9090-exec-8] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 15:16:22,0.005
+2023-12-10 15:16:30,239 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 15:16:30,0.005
+2023-12-10 15:16:30,561 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 15:16:30,0.062
+2023-12-10 15:16:33,150 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 15:16:33,0.005
+2023-12-10 15:16:33,522 [http-nio-9090-exec-4] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 15:16:33,0.056
+2023-12-10 15:16:33,889 [http-nio-9090-exec-9] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 15:16:33,0.007
+2023-12-10 15:16:44,883 [http-nio-9090-exec-10] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 15:16:44,0.008
+2023-12-10 15:16:45,148 [http-nio-9090-exec-5] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/score/getScoreList,202200300050,2023-12-10 15:16:45,0.006
+2023-12-10 15:16:45,208 [http-nio-9090-exec-7] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/score/getStudentItemOptionList,202200300050,2023-12-10 15:16:45,0.005
+2023-12-10 15:16:45,472 [http-nio-9090-exec-6] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/score/getCourseItemOptionList,202200300050,2023-12-10 15:16:45,0.004
+2023-12-10 15:16:46,340 [http-nio-9090-exec-8] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 15:16:46,0.008
+2023-12-10 15:16:46,720 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 15:16:46,0.058
+2023-12-10 15:43:03,008 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 15:43:02,0.013
+2023-12-10 15:43:03,099 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 15:43:02,0.104
+2023-12-10 15:43:03,247 [http-nio-9090-exec-4] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 15:43:03,0.13
+2023-12-10 15:43:03,460 [http-nio-9090-exec-9] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 15:43:03,0.005
+2023-12-10 15:43:24,527 [http-nio-9090-exec-10] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 15:43:24,0.004
+2023-12-10 15:46:29,809 [http-nio-9090-exec-5] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 15:46:29,0.005
+2023-12-10 15:46:30,129 [http-nio-9090-exec-7] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 15:46:30,0.063
+2023-12-10 15:52:48,406 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-10 15:52:48,411 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown initiated...
+2023-12-10 15:52:48,415 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown completed.
+2023-12-10 16:05:08,114 [background-preinit] INFO  o.h.validator.internal.util.Version                - HV000001: Hibernate Validator 6.2.0.Final
+2023-12-10 16:05:08,127 [main] INFO  o.f.t.SpringBootSecurityJwtApplication             - Starting SpringBootSecurityJwtApplication using Java 17.0.4.1 on 大本钟下寄快递 with PID 29612 (D:\web\web-course-design\java-server\target\classes started by 19414 in D:\web\web-course-design\java-server)
+2023-12-10 16:05:08,128 [main] INFO  o.f.t.SpringBootSecurityJwtApplication             - No active profile set, falling back to default profiles: default
+2023-12-10 16:05:09,240 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-12-10 16:05:09,241 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-10 16:05:09,427 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 175 ms. Found 20 JPA repository interfaces.
+2023-12-10 16:05:10,037 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@9679750' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-12-10 16:05:10,044 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-12-10 16:05:10,679 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port(s): 9090 (http)
+2023-12-10 16:05:10,714 [main] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["http-nio-9090"]
+2023-12-10 16:05:10,715 [main] INFO  org.apache.catalina.core.StandardService           - Starting service [Tomcat]
+2023-12-10 16:05:10,715 [main] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/9.0.46]
+2023-12-10 16:05:10,870 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2023-12-10 16:05:10,870 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 2693 ms
+2023-12-10 16:05:11,047 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-12-10 16:05:11,111 [main] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Starting...
+2023-12-10 16:05:11,361 [main] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Start completed.
+2023-12-10 16:05:11,504 [main] INFO  o.hibernate.jpa.internal.util.LogHelper            - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-10 16:05:11,657 [main] INFO  org.hibernate.Version                              - HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-12-10 16:05:11,928 [main] INFO  org.hibernate.annotations.common.Version           - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-12-10 16:05:12,183 [main] INFO  org.hibernate.dialect.Dialect                      - HHH000400: Using dialect: org.fatmansoft.teach.sqlite.SQLDialect
+2023-12-10 16:05:13,555 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-12-10 16:05:13,566 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-10 16:05:15,468 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping              - Adding welcome page: class path resource [public/index.html]
+2023-12-10 16:05:15,659 [main] INFO  o.s.s.web.DefaultSecurityFilterChain               - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@175745fc, org.springframework.security.web.context.SecurityContextPersistenceFilter@68e62b3b, org.springframework.security.web.header.HeaderWriterFilter@13cc3984, org.springframework.web.filter.CorsFilter@2c1a0f82, org.springframework.security.web.authentication.logout.LogoutFilter@2bf0bb93, org.fatmansoft.teach.security.jwt.AuthTokenFilter@638341b0, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@17e4beda, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6f986031, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@60e5db1d, org.springframework.security.web.session.SessionManagementFilter@45ecdd32, org.springframework.security.web.access.ExceptionTranslationFilter@71842e18, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2662e3ff]
+2023-12-10 16:05:15,998 [main] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["http-nio-9090"]
+2023-12-10 16:05:16,058 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat started on port(s): 9090 (http) with context path ''
+2023-12-10 16:05:16,071 [main] INFO  o.f.t.SpringBootSecurityJwtApplication             - Started SpringBootSecurityJwtApplication in 8.478 seconds (JVM running for 9.06)
+2023-12-10 16:05:16,078 [main] INFO  o.f.teach.SystemApplicationListener                - SystemInitStart
+2023-12-10 16:05:16,198 [main] INFO  o.f.teach.SystemApplicationListener                - systemInitEnd
+2023-12-10 16:05:21,634 [http-nio-9090-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-10 16:05:21,634 [http-nio-9090-exec-1] INFO  o.s.web.servlet.DispatcherServlet                  - Initializing Servlet 'dispatcherServlet'
+2023-12-10 16:05:21,635 [http-nio-9090-exec-1] INFO  o.s.web.servlet.DispatcherServlet                  - Completed initialization in 1 ms
+2023-12-10 16:05:22,099 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 16:05:21,0.435
+2023-12-10 16:05:22,177 [http-nio-9090-exec-4] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 16:05:22,0.05
+2023-12-10 16:05:22,300 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,202200300050,2023-12-10 16:05:21,0.466
+2023-12-10 16:12:30,698 [http-nio-9090-exec-5] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,202200300050,2023-12-10 16:12:30,0.006
+2023-12-10 16:12:30,734 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 16:12:30,0.133
+2023-12-10 16:12:30,850 [http-nio-9090-exec-6] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 16:12:30,0.011
+2023-12-10 16:12:33,825 [http-nio-9090-exec-7] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-10 16:12:33,0.017
+2023-12-10 16:12:35,270 [http-nio-9090-exec-8] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/login,,2023-12-10 16:12:35,0.218
+2023-12-10 16:12:35,345 [http-nio-9090-exec-9] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,202200300050,2023-12-10 16:12:35,0.009
+2023-12-10 16:12:35,668 [http-nio-9090-exec-10] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getMenuList,202200300050,2023-12-10 16:12:35,0.02
+2023-12-10 16:12:36,613 [http-nio-9090-exec-4] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,202200300050,2023-12-10 16:12:36,0.009
+2023-12-10 16:12:36,678 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 16:12:36,0.117
+2023-12-10 16:12:36,734 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 16:12:36,0.021
+2023-12-10 16:12:43,639 [http-nio-9090-exec-5] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-10 16:12:43,0.017
+2023-12-10 16:12:44,931 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/login,,2023-12-10 16:12:44,0.091
+2023-12-10 16:12:45,320 [http-nio-9090-exec-6] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,202200300050,2023-12-10 16:12:45,0.016
+2023-12-10 16:12:45,325 [http-nio-9090-exec-7] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getMenuList,202200300050,2023-12-10 16:12:45,0.008
+2023-12-10 16:12:45,668 [http-nio-9090-exec-8] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 16:12:45,0.015
+2023-12-10 16:12:46,282 [http-nio-9090-exec-9] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 16:12:46,0.099
+2023-12-10 16:12:46,298 [http-nio-9090-exec-10] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 16:12:46,0.009
+2023-12-10 16:12:46,318 [http-nio-9090-exec-4] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 16:12:46,0.01
+2023-12-10 16:28:42,476 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 16:28:42,0.009
+2023-12-10 16:28:42,552 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 16:28:42,0.069
+2023-12-10 16:31:25,457 [http-nio-9090-exec-5] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 16:31:25,0.008
+2023-12-10 16:31:25,535 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 16:31:25,0.068
+2023-12-10 16:31:27,240 [http-nio-9090-exec-6] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 16:31:27,0.009
+2023-12-10 16:31:29,696 [http-nio-9090-exec-7] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 16:31:29,0.007
+2023-12-10 16:31:30,016 [http-nio-9090-exec-8] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 16:31:29,0.076
+2023-12-10 16:32:47,769 [http-nio-9090-exec-9] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 16:32:47,0.007
+2023-12-10 16:32:48,089 [http-nio-9090-exec-10] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 16:32:48,0.055
+2023-12-10 16:35:17,386 [http-nio-9090-exec-4] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 16:35:17,0.006
+2023-12-10 16:35:17,984 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 16:35:17,0.007
+2023-12-10 16:35:18,362 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 16:35:18,0.066
+2023-12-10 16:35:19,203 [http-nio-9090-exec-5] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 16:35:19,0.005
+2023-12-10 16:35:19,986 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 16:35:19,0.008
+2023-12-10 16:35:20,307 [http-nio-9090-exec-6] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 16:35:20,0.065
+2023-12-10 16:35:20,340 [http-nio-9090-exec-7] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 16:35:20,0.01
+2023-12-10 16:35:20,347 [http-nio-9090-exec-8] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 16:35:20,0.007
+2023-12-10 16:35:20,702 [http-nio-9090-exec-9] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 16:35:20,0.056
+2023-12-10 16:40:22,176 [http-nio-9090-exec-10] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 16:40:22,0.054
+2023-12-10 16:40:22,212 [http-nio-9090-exec-4] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 16:40:22,0.006
+2023-12-10 16:40:22,611 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 16:40:22,0.006
+2023-12-10 16:40:22,665 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 16:40:22,0.048
+2023-12-10 16:44:47,923 [http-nio-9090-exec-5] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 16:44:47,0.007
+2023-12-10 16:44:47,990 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 16:44:47,0.06
+2023-12-10 16:46:30,388 [http-nio-9090-exec-6] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 16:46:30,0.008
+2023-12-10 16:46:30,447 [http-nio-9090-exec-7] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 16:46:30,0.055
+2023-12-10 16:54:10,331 [http-nio-9090-exec-8] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 16:54:10,0.008
+2023-12-10 16:54:10,403 [http-nio-9090-exec-9] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 16:54:10,0.065
+2023-12-10 16:56:21,732 [http-nio-9090-exec-10] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 16:56:21,0.006
+2023-12-10 16:56:21,794 [http-nio-9090-exec-4] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 16:56:21,0.051
+2023-12-10 18:21:25,866 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 18:21:25,0.047
+2023-12-10 18:21:25,961 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 18:21:25,0.095
+2023-12-10 18:31:53,499 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool                  - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m9s598ms51µs600ns).
+2023-12-10 18:47:03,787 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool                  - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m40s117ms622µs600ns).
+2023-12-10 18:48:53,992 [http-nio-9090-exec-5] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 18:48:53,0.153
+2023-12-10 18:48:54,160 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 18:48:54,0.014
+2023-12-10 18:48:54,633 [http-nio-9090-exec-6] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 18:48:54,0.01
+2023-12-10 18:48:55,255 [http-nio-9090-exec-7] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 18:48:54,0.324
+2023-12-10 19:11:46,435 [http-nio-9090-exec-8] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 19:11:46,0.007
+2023-12-10 19:11:46,503 [http-nio-9090-exec-9] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 19:11:46,0.059
+2023-12-10 19:14:21,228 [http-nio-9090-exec-10] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 19:14:21,0.007
+2023-12-10 19:14:21,286 [http-nio-9090-exec-4] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 19:14:21,0.051
+2023-12-10 19:25:12,220 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 19:25:12,0.007
+2023-12-10 19:25:12,291 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 19:25:12,0.062
+2023-12-10 19:35:03,921 [http-nio-9090-exec-5] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 19:35:03,0.012
+2023-12-10 19:35:12,527 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 19:35:12,0.024
+2023-12-10 19:35:12,601 [http-nio-9090-exec-6] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 19:35:12,0.068
+2023-12-10 19:50:42,827 [http-nio-9090-exec-7] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 19:50:42,0.01
+2023-12-10 19:50:42,905 [http-nio-9090-exec-8] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 19:50:42,0.063
+2023-12-10 20:07:06,367 [http-nio-9090-exec-9] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 20:07:06,0.008
+2023-12-10 20:07:07,594 [http-nio-9090-exec-10] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 20:07:07,0.007
+2023-12-10 20:07:07,851 [http-nio-9090-exec-4] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/score/getScoreList,202200300050,2023-12-10 20:07:07,0.007
+2023-12-10 20:07:07,872 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/score/getStudentItemOptionList,202200300050,2023-12-10 20:07:07,0.011
+2023-12-10 20:07:07,934 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/score/getCourseItemOptionList,202200300050,2023-12-10 20:07:07,0.023
+2023-12-10 20:08:18,866 [http-nio-9090-exec-5] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 20:08:18,0.008
+2023-12-10 20:08:18,959 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 20:08:18,0.083
+2023-12-10 20:15:46,543 [http-nio-9090-exec-6] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 20:15:46,0.008
+2023-12-10 20:15:46,633 [http-nio-9090-exec-7] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 20:15:46,0.062
+2023-12-10 20:16:34,990 [http-nio-9090-exec-8] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 20:16:34,0.006
+2023-12-10 20:16:35,790 [http-nio-9090-exec-9] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 20:16:35,0.008
+2023-12-10 20:16:36,093 [http-nio-9090-exec-10] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 20:16:36,0.056
+2023-12-10 20:17:10,280 [http-nio-9090-exec-4] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 20:17:10,0.003
+2023-12-10 20:17:11,150 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 20:17:11,0.001
+2023-12-10 20:17:11,455 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 20:17:11,0.052
+2023-12-10 20:17:50,846 [http-nio-9090-exec-5] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 20:17:50,0.008
+2023-12-10 20:17:51,615 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 20:17:51,0.006
+2023-12-10 20:17:51,928 [http-nio-9090-exec-6] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 20:17:51,0.065
+2023-12-10 20:18:33,138 [http-nio-9090-exec-7] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 20:18:33,0.006
+2023-12-10 20:18:34,073 [http-nio-9090-exec-8] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 20:18:34,0.006
+2023-12-10 20:18:34,380 [http-nio-9090-exec-9] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 20:18:34,0.056
+2023-12-10 20:19:03,039 [http-nio-9090-exec-10] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 20:19:03,0.005
+2023-12-10 20:19:03,631 [http-nio-9090-exec-4] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 20:19:03,0.002
+2023-12-10 20:19:03,929 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 20:19:03,0.053
+2023-12-10 20:19:27,503 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 20:19:27,0.005
+2023-12-10 20:19:28,475 [http-nio-9090-exec-5] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 20:19:28,0.004
+2023-12-10 20:19:28,774 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 20:19:28,0.05
+2023-12-10 20:19:46,703 [http-nio-9090-exec-6] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 20:19:46,0.007
+2023-12-10 20:19:47,002 [http-nio-9090-exec-7] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 20:19:46,0.005
+2023-12-10 20:19:47,372 [http-nio-9090-exec-8] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 20:19:47,0.062
+2023-12-10 20:25:03,798 [http-nio-9090-exec-9] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 20:25:03,0.006
+2023-12-10 20:25:04,045 [http-nio-9090-exec-10] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 20:25:03,0.065
+2023-12-10 20:25:06,507 [http-nio-9090-exec-4] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 20:25:06,0.006
+2023-12-10 20:25:06,818 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 20:25:06,0.007
+2023-12-10 20:25:07,178 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 20:25:07,0.053
+2023-12-10 20:25:21,084 [http-nio-9090-exec-5] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 20:25:21,0.004
+2023-12-10 20:25:21,434 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 20:25:21,0.054
+2023-12-10 20:25:24,620 [http-nio-9090-exec-6] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 20:25:24,0.005
+2023-12-10 20:25:25,303 [http-nio-9090-exec-7] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 20:25:25,0.004
+2023-12-10 20:25:25,611 [http-nio-9090-exec-8] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 20:25:25,0.047
+2023-12-10 20:25:39,491 [http-nio-9090-exec-9] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 20:25:39,0.006
+2023-12-10 20:25:39,867 [http-nio-9090-exec-10] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 20:25:39,0.06
+2023-12-10 20:25:43,062 [http-nio-9090-exec-4] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 20:25:43,0.006
+2023-12-10 20:25:44,073 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 20:25:44,0.004
+2023-12-10 20:25:44,361 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 20:25:44,0.032
+2023-12-10 20:25:57,716 [http-nio-9090-exec-5] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 20:25:57,0.006
+2023-12-10 20:25:58,081 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 20:25:58,0.057
+2023-12-10 20:25:59,777 [http-nio-9090-exec-6] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 20:25:59,0.001
+2023-12-10 20:26:00,377 [http-nio-9090-exec-7] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 20:26:00,0.0
+2023-12-10 20:26:00,679 [http-nio-9090-exec-8] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 20:26:00,0.046
+2023-12-10 20:26:16,044 [http-nio-9090-exec-9] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 20:26:16,0.0
+2023-12-10 20:26:16,422 [http-nio-9090-exec-10] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 20:26:16,0.05
+2023-12-10 20:26:21,836 [http-nio-9090-exec-4] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 20:26:21,0.004
+2023-12-10 20:26:22,210 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 20:26:22,0.056
+2023-12-10 20:26:25,323 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 20:26:25,0.003
+2023-12-10 20:26:26,015 [http-nio-9090-exec-5] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 20:26:26,0.002
+2023-12-10 20:26:26,319 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 20:26:26,0.052
+2023-12-10 20:26:31,010 [http-nio-9090-exec-6] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 20:26:31,0.005
+2023-12-10 20:26:31,391 [http-nio-9090-exec-7] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 20:26:31,0.057
+2023-12-10 20:26:48,672 [http-nio-9090-exec-8] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 20:26:48,0.007
+2023-12-10 20:26:49,036 [http-nio-9090-exec-9] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 20:26:48,0.051
+2023-12-10 20:27:02,652 [http-nio-9090-exec-10] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceItextPdf,202200300050,2023-12-10 20:27:02,0.301
+2023-12-10 20:30:49,268 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 20:30:49,0.101
+2023-12-10 20:30:49,375 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,202200300050,2023-12-10 20:30:49,0.012
+2023-12-10 20:30:49,386 [http-nio-9090-exec-5] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 20:30:49,0.009
+2023-12-10 20:30:52,074 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-10 20:30:52,0.003
+2023-12-10 20:30:53,551 [http-nio-9090-exec-6] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/login,,2023-12-10 20:30:53,0.092
+2023-12-10 20:30:53,623 [http-nio-9090-exec-7] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,202200300050,2023-12-10 20:30:53,0.007
+2023-12-10 20:30:53,942 [http-nio-9090-exec-8] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getMenuList,202200300050,2023-12-10 20:30:53,0.006
+2023-12-10 20:30:54,249 [http-nio-9090-exec-9] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 20:30:54,0.008
+2023-12-10 20:30:54,848 [http-nio-9090-exec-4] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 20:30:54,0.004
+2023-12-10 20:30:54,848 [http-nio-9090-exec-10] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 20:30:54,0.078
+2023-12-10 20:30:54,924 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 20:30:54,0.01
+2023-12-10 20:31:00,869 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 20:31:00,0.007
+2023-12-10 20:31:01,178 [http-nio-9090-exec-5] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/score/getScoreList,202200300050,2023-12-10 20:31:01,0.0
+2023-12-10 20:31:01,448 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/score/getStudentItemOptionList,202200300050,2023-12-10 20:31:01,0.004
+2023-12-10 20:31:01,508 [http-nio-9090-exec-6] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/score/getCourseItemOptionList,202200300050,2023-12-10 20:31:01,0.003
+2023-12-10 20:31:02,777 [http-nio-9090-exec-7] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 20:31:02,0.007
+2023-12-10 20:31:03,157 [http-nio-9090-exec-8] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 20:31:03,0.115
+2023-12-10 21:00:46,854 [http-nio-9090-exec-4] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,202200300050,2023-12-10 21:00:46,0.005
+2023-12-10 21:00:46,876 [http-nio-9090-exec-9] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 21:00:46,0.101
+2023-12-10 21:00:46,933 [http-nio-9090-exec-10] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 21:00:46,0.006
+2023-12-10 21:00:51,819 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-10 21:00:51,0.005
+2023-12-10 21:00:53,054 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/login,,2023-12-10 21:00:52,0.097
+2023-12-10 21:00:53,126 [http-nio-9090-exec-5] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,202200300050,2023-12-10 21:00:53,0.005
+2023-12-10 21:00:53,669 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getMenuList,202200300050,2023-12-10 21:00:53,0.005
+2023-12-10 21:00:54,005 [http-nio-9090-exec-6] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 21:00:53,0.007
+2023-12-10 21:00:54,617 [http-nio-9090-exec-7] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 21:00:54,0.085
+2023-12-10 21:00:54,629 [http-nio-9090-exec-8] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 21:00:54,0.007
+2023-12-10 21:00:54,695 [http-nio-9090-exec-4] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 21:00:54,0.008
+2023-12-10 21:01:01,986 [http-nio-9090-exec-9] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 21:01:01,0.008
+2023-12-10 21:01:04,786 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 21:01:04,0.08
+2023-12-10 21:01:04,883 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 21:01:04,0.007
+2023-12-10 21:01:05,664 [http-nio-9090-exec-5] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 21:01:05,0.007
+2023-12-10 21:01:05,752 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 21:01:05,0.076
+2023-12-10 21:08:37,591 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool                  - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m892ms638µs500ns).
+2023-12-10 21:11:04,493 [http-nio-9090-exec-6] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 21:11:04,0.099
+2023-12-10 21:11:04,566 [http-nio-9090-exec-7] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 21:11:04,0.009
+2023-12-10 21:11:05,144 [http-nio-9090-exec-8] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 21:11:05,0.015
+2023-12-10 21:11:05,224 [http-nio-9090-exec-4] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 21:11:05,0.071
+2023-12-10 21:11:16,062 [http-nio-9090-exec-9] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 21:11:15,0.074
+2023-12-10 21:11:16,137 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 21:11:16,0.007
+2023-12-10 21:11:16,674 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 21:11:16,0.008
+2023-12-10 21:11:16,750 [http-nio-9090-exec-5] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 21:11:16,0.065
+2023-12-10 21:22:07,393 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 21:22:07,0.016
+2023-12-10 21:22:07,656 [http-nio-9090-exec-10] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 21:22:07,0.061
+2023-12-10 21:33:29,960 [http-nio-9090-exec-6] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 21:33:29,0.006
+2023-12-10 21:33:30,230 [http-nio-9090-exec-7] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 21:33:30,0.063
+2023-12-10 21:46:40,907 [http-nio-9090-exec-8] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 21:46:40,0.202
+2023-12-10 21:46:41,185 [http-nio-9090-exec-4] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 21:46:41,0.009
+2023-12-10 21:46:46,578 [http-nio-9090-exec-9] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 21:46:46,0.099
+2023-12-10 21:46:46,667 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 21:46:46,0.006
+2023-12-10 21:46:47,086 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,202200300050,2023-12-10 21:46:47,0.013
+2023-12-10 21:46:50,403 [http-nio-9090-exec-5] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-10 21:46:50,0.006
+2023-12-10 21:46:52,010 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/login,,2023-12-10 21:46:51,0.085
+2023-12-10 21:46:52,197 [http-nio-9090-exec-10] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,202200300050,2023-12-10 21:46:52,0.018
+2023-12-10 21:46:52,390 [http-nio-9090-exec-6] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getMenuList,202200300050,2023-12-10 21:46:52,0.01
+2023-12-10 21:46:53,596 [http-nio-9090-exec-7] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 21:46:53,0.091
+2023-12-10 21:46:53,673 [http-nio-9090-exec-8] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 21:46:53,0.006
+2023-12-10 21:46:54,149 [http-nio-9090-exec-4] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,202200300050,2023-12-10 21:46:54,0.007
+2023-12-10 21:47:01,839 [http-nio-9090-exec-9] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 21:47:01,0.093
+2023-12-10 21:47:01,856 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,202200300050,2023-12-10 21:47:01,0.005
+2023-12-10 21:47:01,889 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 21:47:01,0.009
+2023-12-10 21:47:05,588 [http-nio-9090-exec-5] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-10 21:47:05,0.012
+2023-12-10 21:47:07,821 [http-nio-9090-exec-10] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-10 21:47:07,0.004
+2023-12-10 21:47:07,821 [http-nio-9090-exec-3] ERROR o.f.teach.security.jwt.AuthEntryPointJwt           - Unauthorized error: /api/base/getPhotoImageStr:Full authentication is required to access this resource
+2023-12-10 21:47:07,821 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,,2023-12-10 21:47:07,0.022
+2023-12-10 21:47:09,121 [http-nio-9090-exec-6] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/login,,2023-12-10 21:47:09,0.09
+2023-12-10 21:47:09,148 [http-nio-9090-exec-7] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,202200300050,2023-12-10 21:47:09,0.005
+2023-12-10 21:47:09,161 [http-nio-9090-exec-8] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getMenuList,202200300050,2023-12-10 21:47:09,0.008
+2023-12-10 21:47:09,341 [http-nio-9090-exec-4] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 21:47:09,0.002
+2023-12-10 21:47:10,104 [http-nio-9090-exec-9] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 21:47:10,0.08
+2023-12-10 21:47:10,123 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 21:47:10,0.006
+2023-12-10 21:47:10,141 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 21:47:10,0.0
+2023-12-10 21:47:18,833 [http-nio-9090-exec-5] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 21:47:18,0.075
+2023-12-10 21:47:18,935 [http-nio-9090-exec-10] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 21:47:18,0.006
+2023-12-10 21:47:19,147 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 21:47:19,0.006
+2023-12-10 21:47:30,753 [http-nio-9090-exec-6] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 21:47:30,0.074
+2023-12-10 21:47:30,801 [http-nio-9090-exec-7] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 21:47:30,0.011
+2023-12-10 21:47:31,252 [http-nio-9090-exec-8] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 21:47:31,0.007
+2023-12-10 21:47:33,615 [http-nio-9090-exec-4] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 21:47:33,0.007
+2023-12-10 21:47:33,708 [http-nio-9090-exec-9] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 21:47:33,0.078
+2023-12-10 21:48:07,232 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 21:48:07,0.006
+2023-12-10 21:48:09,875 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 21:48:09,0.006
+2023-12-10 21:48:09,886 [http-nio-9090-exec-5] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/score/getScoreList,202200300050,2023-12-10 21:48:09,0.0
+2023-12-10 21:48:10,199 [http-nio-9090-exec-10] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/score/getStudentItemOptionList,202200300050,2023-12-10 21:48:10,0.0
+2023-12-10 21:48:10,458 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/score/getCourseItemOptionList,202200300050,2023-12-10 21:48:10,0.003
+2023-12-10 21:48:12,294 [http-nio-9090-exec-6] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 21:48:12,0.006
+2023-12-10 21:48:12,381 [http-nio-9090-exec-7] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 21:48:12,0.078
+2023-12-10 21:48:19,439 [http-nio-9090-exec-8] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 21:48:19,0.006
+2023-12-10 21:48:27,804 [http-nio-9090-exec-4] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 21:48:27,0.004
+2023-12-10 21:48:28,123 [http-nio-9090-exec-9] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 21:48:28,0.07
+2023-12-10 21:49:28,929 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 21:49:28,0.105
+2023-12-10 21:49:28,994 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 21:49:28,0.006
+2023-12-10 21:49:29,495 [http-nio-9090-exec-5] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,202200300050,2023-12-10 21:49:29,0.019
+2023-12-10 21:49:31,452 [http-nio-9090-exec-10] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-10 21:49:31,0.003
+2023-12-10 21:49:32,345 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/login,,2023-12-10 21:49:32,0.076
+2023-12-10 21:49:32,424 [http-nio-9090-exec-6] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,202200300050,2023-12-10 21:49:32,0.005
+2023-12-10 21:49:32,739 [http-nio-9090-exec-7] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getMenuList,202200300050,2023-12-10 21:49:32,0.009
+2023-12-10 21:49:33,074 [http-nio-9090-exec-8] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 21:49:33,0.006
+2023-12-10 21:49:33,656 [http-nio-9090-exec-4] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 21:49:33,0.086
+2023-12-10 21:49:33,682 [http-nio-9090-exec-9] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-10 21:49:33,0.007
+2023-12-10 21:49:33,713 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 21:49:33,0.004
+2023-12-10 21:49:37,697 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 21:49:37,0.005
+2023-12-10 21:49:37,705 [http-nio-9090-exec-5] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/score/getScoreList,202200300050,2023-12-10 21:49:37,0.001
+2023-12-10 21:49:37,717 [http-nio-9090-exec-10] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/score/getStudentItemOptionList,202200300050,2023-12-10 21:49:37,0.006
+2023-12-10 21:49:38,033 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/score/getCourseItemOptionList,202200300050,2023-12-10 21:49:38,0.0
+2023-12-10 21:49:38,577 [http-nio-9090-exec-6] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 21:49:38,0.006
+2023-12-10 21:49:38,908 [http-nio-9090-exec-7] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 21:49:38,0.067
+2023-12-10 21:54:11,971 [http-nio-9090-exec-8] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 21:54:11,0.31
+2023-12-10 21:54:12,053 [http-nio-9090-exec-4] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,202200300050,2023-12-10 21:54:12,0.008
+2023-12-10 21:54:12,121 [http-nio-9090-exec-9] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 21:54:12,0.007
+2023-12-10 21:54:43,166 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 21:54:41,1.97
+2023-12-10 21:54:43,234 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 21:54:43,0.005
+2023-12-10 21:54:43,682 [http-nio-9090-exec-5] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 21:54:43,0.006
+2023-12-10 21:54:43,776 [http-nio-9090-exec-10] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 21:54:43,0.083
+2023-12-10 21:54:47,376 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 21:54:47,0.078
+2023-12-10 21:54:47,463 [http-nio-9090-exec-6] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 21:54:47,0.009
+2023-12-10 21:54:48,518 [http-nio-9090-exec-7] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-10 21:54:48,0.006
+2023-12-10 21:54:48,593 [http-nio-9090-exec-8] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-10 21:54:48,0.065
+2023-12-10 21:55:42,259 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-10 21:55:42,273 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown initiated...
+2023-12-10 21:55:42,273 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown completed.
