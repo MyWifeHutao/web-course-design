@@ -6,6 +6,7 @@ import {
   type TreeNode,
   type TaskStudentItem,
   type TermItem,
+  ActiveItem,
 } from "~/models/general";
 //获取课程数据表后台数据请求方法
 export async function getCourseList(
@@ -49,6 +50,15 @@ export async function getScoreList(
   });
   return res.data as [];
 }
+//获取活动！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！
+export async function getActiveList(
+  studentId: number | null,
+): Promise<[]> {
+  const res = await generalRequest("/api/active/getActiveList", {
+    studentId: studentId,
+  });
+  return res.data as [];
+}
 //成绩保存后台数据请求方法
 export async function scoreSave(
   scoreId: number | null,
@@ -64,6 +74,31 @@ export async function scoreSave(
   });
   return res as DataResponse;
 }
+export async function activeEditSave(
+  studentId: number,
+  editedItem: ActiveItem
+): Promise<DataResponse> {
+  const res = await generalRequest("/api/active/activeEditSave", {
+    studentId : studentId,
+    SheOrJain : editedItem.SheOrJain,
+    data : editedItem.data,
+    hour:editedItem.hour,
+    aware : editedItem.aware,
+    friend : editedItem.friend,
+  });
+  return res as DataResponse;
+}
+
+
+
+
+
+
+
+
+
+
+
 //成绩删除后台数据请求方法
 export async function scoreDelete(scoreId: number): Promise<DataResponse> {
   const res = await generalRequest("/api/score/scoreDelete", {

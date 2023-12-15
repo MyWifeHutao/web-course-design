@@ -87,6 +87,7 @@
                           </template>
                           <el-menu-item-group>
                               <el-menu-item index="/Choose" @click=courseChoose()>学生选课</el-menu-item>
+                              <el-menu-item index="/Guan" @click=guan()>学工管理</el-menu-item>
                               </el-menu-item-group>
                         </el-sub-menu>  
             </template>
@@ -327,6 +328,9 @@ export default defineComponent({
     },
     courseChoose(){
       router.push("/CourseChoose");
+    },
+    guan(){
+      router.push("/Guan");
     },
     goToMain(){
       router.push("/MainPage");

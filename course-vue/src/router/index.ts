@@ -40,6 +40,11 @@ const routes = [
     component: () => import("~/views/info/CourseChoose.vue"),
   },
   {
+    path:"/Guan",
+    name:"Guan",
+    component: () => import("~/views/info/Guan.vue"),
+  },//学工管理
+  {
     path: "/TeacherIntroduce",
     name: "TeacherIntroduce",
     component: () => import("~/views/info/TeacherIntroduce.vue"),
