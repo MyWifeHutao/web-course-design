@@ -7,9 +7,9 @@
 
     <div class="base_query_oneLine">
       <div class="query_left">
-        <button style="margin-left: 5px" class="commButton" @click="addItemFirst">
+        <el-button color="#96282d" style="margin-left: 5px" type="primary" @click="addItemFirst">
           添加一级菜单
-        </button>
+        </el-button>
       </div>
     </div>
     <div class="custom-tree-container" v-if="nodes !== null">

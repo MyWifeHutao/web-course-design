@@ -34,19 +34,31 @@
       </table>
     </div>
   </div>
-  <dialog
+  <el-dialog
+    class="dialog"
+    v-model="dialog"
     id="favDialog"
     onclose="close()"
-    style="
-      position: absolute;
-      top: 300px;
-      left: 300px;
-      width: 300px;
-      height: 210px;
-    "
+    style="width: 20%;"
+    title="选择课程"
+    align-center
   >
-    <div class="base_title">学生选课</div>
-    <div class="dialog-div" style="margin-top: 5px">
+    <div class="rowDiv">
+      <div class="headDiv">课程名</div>
+      <el-select v-model="editedItem.courseId" placeholder="请选择课程">
+      <el-option 
+        v-for="item in courseList"
+        :key="item.id"
+        :value="item.id">
+        {{ item.title }}
+      </el-option>
+    </el-select>
+    </div>
+    <div class="rowDiv">
+      <el-button @click="close()">取消</el-button>
+      <el-button @click="confirm()">确认</el-button>
+    </div>
+    <!-- <div class="dialog-div" style="margin-top: 5px">
       <table class="dialog-content">
         <tr>
           <td colspan="1" style="text-align: right">课程名</td>
@@ -77,11 +89,11 @@
           </td>
         </tr>
       </table>
-    </div>
-  </dialog>
+    </div> -->
+  </el-dialog>
 </template>
 <script lang="ts">
-import { defineComponent } from "vue";
+import { defineComponent,ref } from "vue";
 import {
   getScoreList,
   getStudentItemOptionList,
@@ -92,8 +104,10 @@ import {
 import { StudentItem, type OptionItem, type ScoreItem } from "~/models/general";
 import { message, messageConform } from "~/tools/messageBox";
 import { getStudentIntroduceData } from "~/services/infoServ";
+import { flatMap } from "lodash-es";
 export default defineComponent({
   data: () => ({
+    dialog:ref(false),
     info: {} as StudentItem,
     scoreList: [] as ScoreItem[],
     studentId: null,
@@ -123,6 +137,7 @@ export default defineComponent({
     },
     // 添加成绩,显示成绩修改对画框
     addItem() {
+      this.dialog=true;
       this.editedItem = {} as ScoreItem;
       const dialog = document.getElementById("favDialog") as HTMLDialogElement;
       dialog.show();
@@ -135,8 +150,7 @@ export default defineComponent({
     },
     // 关闭成绩修改对话框
     close() {
-      const dialog = document.getElementById("favDialog") as HTMLDialogElement;
-      dialog.close();
+      this.dialog=false;
     },
     // 确认成绩修改对话框
     async confirm() {
@@ -171,3 +185,24 @@ export default defineComponent({
   },
 });
 </script>
+<style scoped>
+  .dialog{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .rowDiv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 32px;
+    justify-content: center;
+  }
+  .headDiv{
+    display: flex;
+    flex-direction: row;
+    height: 32px;
+    width: 80px;
+    align-items: center;
+  }
+</style>

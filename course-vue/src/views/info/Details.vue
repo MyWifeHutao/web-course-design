@@ -1,2 +1,0 @@
-<template>dwdwdwddwdw
-</template>

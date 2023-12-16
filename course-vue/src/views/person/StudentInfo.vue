@@ -8,43 +8,42 @@
       <table class="content">
         <tr>
           <td colspan="1" style="text-align: right">学号</td>
-          <td colspan="1"><input v-model="form.num" style="width: 97%" /></td>
+          <td colspan="1"><el-input v-model="form.num" style="width: 97%" /></td>
         </tr>
         <tr>
           <td colspan="1" style="text-align: right">姓名</td>
-          <td colspan="1"><input v-model="form.name" style="width: 97%" /></td>
+          <td colspan="1"><el-input v-model="form.name" style="width: 97%" /></td>
         </tr>
         <tr>
           <td colspan="1" style="text-align: right">学院</td>
-          <td colspan="1"><input v-model="form.dept" style="width: 97%" /></td>
+          <td colspan="1"><el-input v-model="form.dept" style="width: 97%" /></td>
         </tr>
         <tr>
           <td colspan="1" style="text-align: right">专业</td>
-          <td colspan="1"><input v-model="form.major" style="width: 97%" /></td>
+          <td colspan="1"><el-input v-model="form.major" style="width: 97%" /></td>
         </tr>
         <tr>
           <td colspan="1" style="text-align: right">班级</td>
           <td colspan="1">
-            <input v-model="form.className" style="width: 97%" />
+            <el-input v-model="form.className" style="width: 97%" />
           </td>
         </tr>
         <tr>
           <td colspan="1" style="text-align: right">证件号码</td>
-          <td colspan="1"><input v-model="form.card" style="width: 97%" /></td>
+          <td colspan="1"><el-input v-model="form.card" style="width: 97%" /></td>
         </tr>
         <tr>
           <td colspan="1" style="text-align: right">性别</td>
           <td colspan="1">
-            <select class="commInput" v-model="form.gender" style="width: 97%">
-              <option value="0">请选择...</option>
-              <option
+            <el-select placeholder="性别" v-model="form.gender" style="width: 97%">
+              <el-option
                 v-for="item in genderList"
                 :key="item.value"
                 :value="item.value"
               >
                 {{ item.title }}
-              </option>
-            </select>
+              </el-option>
+            </el-select>
           </td>
         </tr>
         <tr>
@@ -53,23 +52,23 @@
             <el-date-picker
               v-model="birthday"
               type="date"
-              style="width: 100%"
+              style="width: 97%"
               placeholder="选择出生日期"
             />
           </td>
         </tr>
         <tr>
           <td colspan="1" style="text-align: right">邮箱</td>
-          <td colspan="1"><input v-model="form.email" style="width: 97%" /></td>
+          <td colspan="1"><el-input v-model="form.email" style="width: 97%" /></td>
         </tr>
         <tr>
           <td colspan="1" style="text-align: right">电话</td>
-          <td colspan="1"><input v-model="form.phone" style="width: 97%" /></td>
+          <td colspan="1"><el-input v-model="form.phone" style="width: 97%" /></td>
         </tr>
         <tr>
           <td colspan="1" style="text-align: right">地址</td>
           <td colspan="1">
-            <input v-model="form.address" style="width: 97%" />
+            <el-input v-model="form.address" style="width: 97%" />
           </td>
         </tr>
         <tr>

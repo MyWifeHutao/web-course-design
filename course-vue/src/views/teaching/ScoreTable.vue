@@ -2,31 +2,29 @@
   <div class="base_form">
     <div class="base_header">
       <div class="blue_column"></div>
-      <div class="base_title">课程管理</div>
+      <div class="base_title">成绩管理</div>
     </div>
 
     <div class="base_query_oneLine">
       <div class="query_left">
-        <button class="commButton" @click="addItem()">添加</button>
+        <el-button color="#96282d" @click="addItem()">添加</el-button>
       </div>
       <div class="query_right">
         <span style="margin-top: 5px">学生</span>
-        <select class="commInput" v-model="studentId">
-          <option value="0">请选择...</option>
-          <option v-for="item in studentList" :key="item.id" :value="item.id">
+        <el-select class="commInput" placeholder="请选择学生" v-model="studentId">
+          <el-option v-for="item in studentList" :key="item.id" :value="item.id">
             {{ item.title }}
-          </option>
-        </select>
+          </el-option>
+        </el-select>
         <span style="margin-top: 5px">课程</span>
-        <select class="commInput" v-model="courseId">
-          <option value="0">请选择...</option>
-          <option v-for="item in courseList" :key="item.id" :value="item.id">
+        <el-select placeholder="请选择课程" class="commInput" v-model="courseId">
+          <el-option v-for="item in courseList" :key="item.id" :value="item.id">
             {{ item.title }}
-          </option>
-        </select>
-        <button style="margin-left: 5px" class="commButton" @click="query()">
+          </el-option>
+        </el-select>
+        <el-button style="margin-left: 5px" color="#96282d" @click="query()">
           查询
-        </button>
+        </el-button>
       </div>
     </div>
     <div class="table_center" style="margin-top: 5px">
@@ -50,34 +48,62 @@
           <td>{{ item.credit }}</td>
           <td>{{ item.mark }}</td>
           <td>
-            <button class="table_edit_button" @click="editItem(item)">
+            <el-button color="#96282d" @click="editItem(item)">
               编辑
-            </button>
-            <button
-              class="table_delete_button"
+            </el-button>
+            <el-button
+            color="#fa581e" style="color: white;"
               @click="deleteItem(item.scoreId)"
             >
               删除
-            </button>
+            </el-button>
           </td>
         </tr>
       </table>
     </div>
   </div>
   <!-- 成绩修改对话框显示 -->
-  <dialog
+  <el-dialog
+    style="width: 20%;"
+    v-model="dialog"
+    class="dialog"
     id="favDialog"
     onclose="close()"
-    style="
-      position: absolute;
-      top: 300px;
-      left: 300px;
-      width: 300px;
-      height: 210px;
-    "
+    title="成绩添加修改对话框"
   >
-    <div class="base_title">成绩添加修改对话框</div>
-    <div class="dialog-div" style="margin-top: 5px">
+  <div class="rowDiv">
+    <div class="headDiv">学生</div>
+    <el-select v-model="editedItem.studentId" style="width: 100%;" placeholder="请选择学生">
+      <el-option
+        v-for="item in studentList"
+        :key="item.id"
+        :value="item.id"
+        >
+        {{ item.title }}
+      </el-option>
+    </el-select>
+  </div>
+  <div class="rowDiv">
+    <div class="headDiv">课程</div>
+    <el-select v-model="editedItem.courseId" style="width: 100%;" placeholder="请选择课程">
+      <el-option
+        v-for="item in courseList"
+        :key="item.id"
+        :value="item.id"
+        >
+        {{ item.title }}
+      </el-option>
+    </el-select>
+  </div>
+  <div class="rowDiv">
+    <div class="headDiv">成绩</div>
+    <el-input v-model="editedItem.mark" style="width: 100%;"></el-input>
+  </div>
+  <div class="rowDiv">
+    <el-button @click="close()">取消</el-button>
+    <el-button @click="confirm()">确认</el-button>
+  </div>
+    <!-- <div class="dialog-div" style="margin-top: 5px">
       <table class="dialog-content">
         <tr>
           <td colspan="1" style="text-align: right">课程号</td>
@@ -128,11 +154,11 @@
           </td>
         </tr>
       </table>
-    </div>
-  </dialog>
+    </div> -->
+  </el-dialog>
 </template>
 <script lang="ts">
-import { defineComponent } from "vue";
+import { defineComponent,ref } from "vue";
 import {
   getScoreList,
   getStudentItemOptionList,
@@ -144,6 +170,7 @@ import { type OptionItem, type ScoreItem } from "~/models/general";
 import { message, messageConform } from "~/tools/messageBox";
 export default defineComponent({
   data: () => ({
+    dialog:ref(false),
     scoreList: [] as ScoreItem[],
     studentId: null,
     courseId: null,
@@ -170,20 +197,21 @@ export default defineComponent({
     },
     // 添加成绩,显示成绩修改对画框
     addItem() {
+      this.dialog=true;
       this.editedItem = {} as ScoreItem;
       const dialog = document.getElementById("favDialog") as HTMLDialogElement;
       dialog.show();
     },
     // 编辑成绩,显示成绩修改对画框
     editItem(item: ScoreItem) {
+      this.dialog=true;
       this.editedItem = item;
       const dialog = document.getElementById("favDialog") as HTMLDialogElement;
       dialog.show();
     },
     // 关闭成绩修改对话框
     close() {
-      const dialog = document.getElementById("favDialog") as HTMLDialogElement;
-      dialog.close();
+      this.dialog=false;
     },
     // 确认成绩修改对话框
     async confirm() {
@@ -218,3 +246,24 @@ export default defineComponent({
   },
 });
 </script>
+<style scoped>
+.dialog{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.rowDiv{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 32px;
+  justify-content: center;
+}
+.headDiv{
+  display: flex;
+  flex-direction: row;
+  height: 32px;
+  width: 80px;
+  align-items: center;
+}
+</style>

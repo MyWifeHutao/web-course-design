@@ -32,19 +32,40 @@
         </table>
       </div>
     </div>
-    <dialog
+    <el-dialog
+      class="dialog"
+      v-model="addDialog"
+      title="添加项目"
       id="favDialog"
       onclose="close()"
-      style="
-        position: absolute;
-        top: 300px;
-        left: 300px;
-        width: 300px;
-        height: 210px;
-      "
+      style="width: 20%;"
+      align-center
     >
-      <div class="base_title">添加项目</div>
-      <div class="dialog-div" style="margin-top: 5px">
+      <div class="rowDiv">
+        <div class="headDiv">项目名称</div>
+        <el-input v-model="editedItem.SheOrJain" style="width: 100%;"></el-input>
+      </div>
+      <div class="rowDiv">
+        <div class="headDiv">日期</div>
+        <el-date-picker v-model="editedItem.data" style="width: 100%;"></el-date-picker>
+      </div>
+      <div class="rowDiv">
+        <div class="headDiv">时长</div>
+        <el-input v-model="editedItem.hour" style="width: 100%;"></el-input>
+      </div>
+      <div class="rowDiv">
+        <div class="headDiv">奖励</div>
+        <el-input v-model="editedItem.aware" style="width: 100%;"></el-input>
+      </div>
+      <div class="rowDiv">
+        <div class="headDiv">团队</div>
+        <el-input v-model="editedItem.friend" style="width: 100%;"></el-input>
+      </div>
+      <div class="rowDiv">
+        <el-button @click="close()">取消</el-button>
+        <el-button @click="submit()">提交</el-button>
+      </div>
+      <!-- <div class="dialog-div">
         <table class="dialog-content">
             <tr>
                 <td colspan="1" style="text-align: right">项目</td>
@@ -81,11 +102,11 @@
             </td>
           </tr>
         </table>
-      </div>
-    </dialog>
+      </div> -->
+    </el-dialog>
   </template>
   <script lang="ts">
-  import { defineComponent } from "vue";
+  import { defineComponent,ref } from "vue";
   import {
     getScoreList,
     getStudentItemOptionList,
@@ -98,6 +119,7 @@ activeEditSave,
   import { StudentItem, type OptionItem, type ScoreItem,type ActiveItem } from "~/models/general";
   import { message, messageConform } from "~/tools/messageBox";
   import { getStudentIntroduceData } from "~/services/infoServ";
+  
   export default defineComponent({
     data: () => ({
       info: {} as StudentItem,
@@ -108,6 +130,7 @@ activeEditSave,
       studentList: [] as OptionItem[],
       courseList: [] as OptionItem[],
       deleteId: -1,
+      addDialog : ref(false)
     }),
     computed: {},
     async created() {
@@ -129,6 +152,7 @@ activeEditSave,
       },
       // 添加成绩,显示成绩修改对画框
       addItem() {
+        this.addDialog=true;
         this.editedItem = {} as ActiveItem;
         const dialog = document.getElementById("favDialog") as HTMLDialogElement;
         dialog.show();
@@ -141,8 +165,7 @@ activeEditSave,
     //   },
       // 关闭成绩修改对话框
       close() {
-        const dialog = document.getElementById("favDialog") as HTMLDialogElement;
-        dialog.close();
+        this.addDialog=false;
       },
       // 确认成绩修改对话框
       async submit() {
@@ -186,4 +209,25 @@ activeEditSave,
     },
   });
   </script>
+  <style scoped>
+  .dialog{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .rowDiv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 32px;
+    justify-content: center;
+  }
+  .headDiv{
+    display: flex;
+    flex-direction: row;
+    height: 32px;
+    width: 80px;
+    align-items: center;
+  }
+  </style>
   

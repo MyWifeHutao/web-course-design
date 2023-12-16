@@ -10,13 +10,13 @@
     <div class="base_query_oneLine" style="width: 97%">
       <!-- 左边操作按钮组 -->
       <div class="query_left">
-        <el-button class="commButton" @click="addItem()">添加</el-button>
+        <el-button color="#96282d" @click="addItem()">添加</el-button>
       </div>
       <!-- 右边查询组 -->
       <div class="query_right">
         <el-input v-model="numName">学号或姓名</el-input>
-        <el-button class="commButton" @click="doQuery()">查询</el-button>
-        <el-button class="commButton" @click="doExport()">导出</el-button>
+        <el-button color="#96282d" @click="doQuery()">查询</el-button>
+        <el-button color="#96282d" @click="doExport()">导出</el-button>
       </div>
     </div>
     <!-- 学生数据表格区域  基于el-table ,可方便实现分页数据展现-->
@@ -98,18 +98,18 @@
             {{ scope.row.address }}
           </template>
         </el-table-column>
-        <el-table-column label="操作" color="black" align="center" width="260">
+        <el-table-column label="操作" color="black" align="center" width="300">
           <template v-slot="scope">
-            <el-button class="commButton" @click="editItem(scope.row.studentId)"
+            <el-button color="#96282d" @click="editItem(scope.row.studentId)"
               >基本信息</el-button
             >
             <el-button
-              class="commButton"
+              color="#96282d"
               @click="familyMember(scope.row.studentId)"
               >家庭成员</el-button
             >
             <el-button
-              class="commButton"
+              color="#96282d"
               @click="deleteItem(scope.row.studentId)"
               >删除</el-button
             >

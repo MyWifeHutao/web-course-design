@@ -7,22 +7,22 @@
 
     <div class="base_query_oneLine">
       <div class="query_left">
-        <button
+        <el-button
+          color="#96282d"
           style="margin-left: 5px"
-          class="commButton"
           @click="addItemFirst"
         >
           添加数据项名
-        </button>
-        <button class="commButton" style="margin-left: 5px" @click="addItem">
+        </el-button>
+        <el-button color="#96282d" style="margin-left: 5px" @click="addItem">
           添加数据项
-        </button>
-        <button class="commButton" style="margin-left: 5px" @click="editItem">
+        </el-button>
+        <el-button color="#96282d" style="margin-left: 5px" @click="editItem">
           修改
-        </button>
-        <button class="commButton" style="margin-left: 5px" @click="deleteItem">
+        </el-button>
+        <el-button color="#96282d" style="margin-left: 5px" @click="deleteItem">
           删除
-        </button>
+        </el-button>
       </div>
     </div>
     <div style="margin-top: 5px" v-if="nodes !== null">

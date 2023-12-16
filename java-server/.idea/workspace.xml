@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d3ba3ff-d47f-4920-93b3-ffe39256c2dc" name="Default Changelist" comment="lxq">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/fatmansoft/teach/models/Active.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../course-vue/node_modules/.vite/deps/_metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/../course-vue/node_modules/.vite/deps/_metadata.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../course-vue/node_modules/.vite/deps/element-plus_es_components_table_style_index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../course-vue/node_modules/.vite/deps/element-plus_es_components_table_style_index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../course-vue/src/components/Navi.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../course-vue/src/components/Navi.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../course-vue/src/router/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../course-vue/src/router/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../course-vue/src/services/teachingServ.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../course-vue/src/services/teachingServ.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/java-server.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/java-server.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../web.db" beforeDir="false" afterPath="$PROJECT_DIR$/../web.db" afterDir="false" />

@@ -7,12 +7,12 @@
 
     <div class="base_query_oneLine">
       <div class="query_left">
-        <button class="commButton" @click="dialogFormVisible = true">添加</button>
+        <el-button color="#96282d" @click="dialogFormVisible = true">添加</el-button>
       </div>
       <div class="query_right">
         <span style="margin-top: 5px">课程号或课程名</span>
-        <input type="text" v-model="numName" style="margin-left: 10px; width: 230px" />
-        <button style="margin-left: 5px" class="commButton" @click="query()">查询</button>
+        <el-input type="text" v-model="numName" style="margin-left: 10px; width: 230px" />
+        <el-button style="margin-left: 5px" color="#96282d" @click="query()">查询</el-button>
       </div>
     </div>
     <div class="table_center" style="margin-top: 5px">
@@ -32,8 +32,8 @@
           <td>{{ item.coursePath }}</td>
           <td>{{ item.preCourse }}</td>
           <td>
-            <button class="table_edit_button" @click="editItem(item)">编辑</button>
-            <button class="table_delete_button" @click="deleteItem(item.courseId)">删除</button>
+            <el-button color="#96282d" @click="editItem(item)">编辑</el-button>
+            <el-button color="#fa581e" style="color: white;" @click="deleteItem(item.courseId)">删除</el-button>
           </td>
         </tr>
       </table>
@@ -41,51 +41,38 @@
   </div>
   <!-- 对话框显示 -->
   <el-dialog
+    class="dialog"
     v-model="dialogFormVisible"
     onclose="close()"
     title="课程添加修改对话框"
+    style="width: 40%;"
   >
-    <div class="dialog-div" style="margin-top: 5px">
-      <table class="content">
-        <tr>
-          <td colspan="1" style="text-align: right">课程号</td>
-          <td colspan="1"><input v-model="form.num" style="width: 97%" /></td>
-        </tr>
-        <tr>
-          <td colspan="1" style="text-align: right">课程名</td>
-          <td colspan="1"><input v-model="form.name" style="width: 97%" /></td>
-        </tr>
-        <tr>
-          <td colspan="1" style="text-align: right">学分</td>
-          <td colspan="1">
-            <input v-model="form.credit" style="width: 97%" />
-          </td>
-        </tr>
-        <tr>
-          <td colspan="1" style="text-align: right">资料路径</td>
-          <td colspan="1">
-            <input v-model="form.coursePath" style="width: 97%" />
-          </td>
-        </tr>
-        <tr>
-          <td colspan="1" style="text-align: right">前序课</td>
-          <td colspan="1">
-            <select class="commInput" v-model="form.preCourseId">
-              <option v-for="item in courseSelectList" :key="item.id" :value="item.id">
-                {{ item.title }}
-              </option>
-            </select>
-          </td>
-        </tr>
-
-        
-          
-            <el-button class="commButton" @click="dialogFormVisible = false">取消</el-button>
-            <el-button class="commButton" @click="confirm()">确认</el-button>
-          
-        
-      </table>
-    </div>
+  <div class="rowDiv">
+    <div class="headDiv">课程号</div>
+    <el-input v-model="form.num" style="width: 100%;"></el-input>
+  </div>
+  <div class="rowDiv">
+    <div class="headDiv">课程名</div>
+    <el-input v-model="form.name" style="width: 100%;"></el-input>
+  </div>
+  <div class="rowDiv">
+    <div class="headDiv">学分</div>
+    <el-input v-model="form.credit" style="width: 100%;"></el-input>
+  </div>
+  <div class="rowDiv">
+    <div class="headDiv">资料路径</div>
+    <el-input v-model="form.coursePath" style="width: 100%;"></el-input>
+  </div>
+  <div class="rowDiv">
+    <div class="headDiv">前序课</div>
+    <el-select v-model="form.preCourseId" placeholder="请选择前序课程" style="width: 100%;">
+      <el-option v-for="item in courseSelectList" :key="item.id" :value="item.id">{{ item.title }}</el-option>
+    </el-select>
+  </div>
+  <div class="rowDiv">
+    <el-button @click="dialogFormVisible = false">取消</el-button>
+    <el-button @click="confirm()">确认</el-button>
+  </div>
   </el-dialog>
 </template>
 
@@ -172,4 +159,23 @@ export default defineComponent({
   }
 })
 </script>
-<style></style>
+<style scoped>
+  .dialog{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .rowDiv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 32px;
+    justify-content: center;
+  }
+  .headDiv{
+    display: flex;
+    flex-direction: row;
+    height: 32px;
+    width: 80px;
+    align-items: center;
+  }</style>

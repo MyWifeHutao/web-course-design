@@ -1,0 +1,274 @@
+2023-12-15 16:03:24,633 [background-preinit] INFO  o.h.validator.internal.util.Version                - HV000001: Hibernate Validator 6.2.0.Final
+2023-12-15 16:03:24,655 [main] INFO  o.f.t.SpringBootSecurityJwtApplication             - Starting SpringBootSecurityJwtApplication using Java 17.0.4.1 on 大本钟下寄快递 with PID 21432 (D:\web\web-course-design\java-server\target\classes started by 19414 in D:\web\web-course-design\java-server)
+2023-12-15 16:03:24,656 [main] INFO  o.f.t.SpringBootSecurityJwtApplication             - No active profile set, falling back to default profiles: default
+2023-12-15 16:03:26,843 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-12-15 16:03:26,847 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-15 16:03:27,058 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 199 ms. Found 21 JPA repository interfaces.
+2023-12-15 16:03:27,725 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@2abe9173' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-12-15 16:03:27,731 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-12-15 16:03:28,419 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port(s): 9090 (http)
+2023-12-15 16:03:28,436 [main] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["http-nio-9090"]
+2023-12-15 16:03:28,436 [main] INFO  org.apache.catalina.core.StandardService           - Starting service [Tomcat]
+2023-12-15 16:03:28,436 [main] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/9.0.46]
+2023-12-15 16:03:28,584 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2023-12-15 16:03:28,584 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 3874 ms
+2023-12-15 16:03:28,740 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-12-15 16:03:28,814 [main] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Starting...
+2023-12-15 16:03:29,223 [main] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Start completed.
+2023-12-15 16:03:29,347 [main] INFO  o.hibernate.jpa.internal.util.LogHelper            - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-15 16:03:29,463 [main] INFO  org.hibernate.Version                              - HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-12-15 16:03:29,634 [main] INFO  org.hibernate.annotations.common.Version           - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-12-15 16:03:29,786 [main] INFO  org.hibernate.dialect.Dialect                      - HHH000400: Using dialect: org.fatmansoft.teach.sqlite.SQLDialect
+2023-12-15 16:03:30,713 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-12-15 16:03:30,725 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-15 16:03:32,747 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping              - Adding welcome page: class path resource [public/index.html]
+2023-12-15 16:03:32,917 [main] INFO  o.s.s.web.DefaultSecurityFilterChain               - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@25fc2b8f, org.springframework.security.web.context.SecurityContextPersistenceFilter@1d7f0cd0, org.springframework.security.web.header.HeaderWriterFilter@61cff1e4, org.springframework.web.filter.CorsFilter@363d29dd, org.springframework.security.web.authentication.logout.LogoutFilter@6f53295e, org.fatmansoft.teach.security.jwt.AuthTokenFilter@49ee3b8d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@113e6e06, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@496004e3, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@19b4dd60, org.springframework.security.web.session.SessionManagementFilter@787b7796, org.springframework.security.web.access.ExceptionTranslationFilter@3013e1e8, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@69f55ea]
+2023-12-15 16:03:33,227 [main] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["http-nio-9090"]
+2023-12-15 16:03:33,278 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat started on port(s): 9090 (http) with context path ''
+2023-12-15 16:03:33,293 [main] INFO  o.f.t.SpringBootSecurityJwtApplication             - Started SpringBootSecurityJwtApplication in 9.128 seconds (JVM running for 9.644)
+2023-12-15 16:03:33,296 [main] INFO  o.f.teach.SystemApplicationListener                - SystemInitStart
+2023-12-15 16:03:33,405 [main] INFO  o.f.teach.SystemApplicationListener                - systemInitEnd
+2023-12-15 16:03:51,218 [http-nio-9090-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-15 16:03:51,219 [http-nio-9090-exec-1] INFO  o.s.web.servlet.DispatcherServlet                  - Initializing Servlet 'dispatcherServlet'
+2023-12-15 16:03:51,220 [http-nio-9090-exec-1] INFO  o.s.web.servlet.DispatcherServlet                  - Completed initialization in 1 ms
+2023-12-15 16:03:51,366 [http-nio-9090-exec-1] ERROR o.fatmansoft.teach.security.jwt.JwtUtils           - JWT token is expired: JWT expired at 2023-12-11T15:10:58Z. Current time: 2023-12-15T16:03:51Z, a difference of 348773365 milliseconds.  Allowed clock skew: 0 milliseconds.
+2023-12-15 16:03:51,367 [http-nio-9090-exec-2] ERROR o.fatmansoft.teach.security.jwt.JwtUtils           - JWT token is expired: JWT expired at 2023-12-11T15:10:58Z. Current time: 2023-12-15T16:03:51Z, a difference of 348773367 milliseconds.  Allowed clock skew: 0 milliseconds.
+2023-12-15 16:03:51,372 [http-nio-9090-exec-1] ERROR o.f.teach.security.jwt.AuthEntryPointJwt           - Unauthorized error: /api/base/getPhotoImageStr:Full authentication is required to access this resource
+2023-12-15 16:03:51,374 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,,2023-12-15 16:03:51,0.122
+2023-12-15 16:03:51,967 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-15 16:03:51,0.6
+2023-12-15 16:03:58,414 [http-nio-9090-exec-3] ERROR o.fatmansoft.teach.security.jwt.JwtUtils           - JWT token is expired: JWT expired at 2023-12-12T22:30:11Z. Current time: 2023-12-15T16:03:58Z, a difference of 236027414 milliseconds.  Allowed clock skew: 0 milliseconds.
+2023-12-15 16:03:58,415 [http-nio-9090-exec-3] ERROR o.f.teach.security.jwt.AuthEntryPointJwt           - Unauthorized error: /api/base/getPhotoImageStr:Full authentication is required to access this resource
+2023-12-15 16:03:58,415 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,,2023-12-15 16:03:58,0.002
+2023-12-15 16:03:58,533 [http-nio-9090-exec-4] ERROR o.fatmansoft.teach.security.jwt.JwtUtils           - JWT token is expired: JWT expired at 2023-12-12T22:30:11Z. Current time: 2023-12-15T16:03:58Z, a difference of 236027533 milliseconds.  Allowed clock skew: 0 milliseconds.
+2023-12-15 16:03:58,541 [http-nio-9090-exec-4] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-15 16:03:58,0.009
+2023-12-15 16:04:02,549 [http-nio-9090-exec-5] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-15 16:04:02,0.007
+2023-12-15 16:04:04,059 [http-nio-9090-exec-8] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/login,,2023-12-15 16:04:03,0.265
+2023-12-15 16:04:04,082 [http-nio-9090-exec-6] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,202200300050,2023-12-15 16:04:04,0.011
+2023-12-15 16:04:04,112 [http-nio-9090-exec-7] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getMenuList,202200300050,2023-12-15 16:04:04,0.02
+2023-12-15 16:04:04,565 [http-nio-9090-exec-10] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-15 16:04:04,0.019
+2023-12-15 16:04:05,130 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-15 16:04:05,0.012
+2023-12-15 16:04:05,204 [http-nio-9090-exec-9] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-15 16:04:05,0.167
+2023-12-15 16:04:05,294 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-15 16:04:05,0.041
+2023-12-15 16:04:09,498 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-15 16:04:09,0.004
+2023-12-15 16:04:09,518 [http-nio-9090-exec-4] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/active/getActiveList,202200300050,2023-12-15 16:04:09,0.011
+2023-12-15 16:04:09,543 [http-nio-9090-exec-5] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/score/getStudentItemOptionList,202200300050,2023-12-15 16:04:09,0.015
+2023-12-15 16:04:09,888 [http-nio-9090-exec-8] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/score/getCourseItemOptionList,202200300050,2023-12-15 16:04:09,0.01
+2023-12-15 16:04:38,769 [http-nio-9090-exec-6] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-15 16:04:38,0.008
+2023-12-15 16:04:41,283 [http-nio-9090-exec-7] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-15 16:04:41,0.0
+2023-12-15 16:04:41,547 [http-nio-9090-exec-10] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/active/getActiveList,202200300050,2023-12-15 16:04:41,0.006
+2023-12-15 16:04:41,607 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/score/getStudentItemOptionList,202200300050,2023-12-15 16:04:41,0.006
+2023-12-15 16:04:41,863 [http-nio-9090-exec-9] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/score/getCourseItemOptionList,202200300050,2023-12-15 16:04:41,0.0
+2023-12-15 16:05:03,031 [http-nio-9090-exec-2] ERROR o.a.c.c.C.[.[.[/].[dispatcherServlet]              - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.orm.ObjectOptimisticLockingFailureException: Object of class [org.fatmansoft.teach.models.Active] with identifier [1]: optimistic locking failed; nested exception is org.hibernate.StaleObjectStateException: Row was updated or deleted by another transaction (or unsaved-value mapping was incorrect) : [org.fatmansoft.teach.models.Active#1]] with root cause
+org.hibernate.StaleObjectStateException: Row was updated or deleted by another transaction (or unsaved-value mapping was incorrect) : [org.fatmansoft.teach.models.Active#1]
+	at org.hibernate.persister.entity.AbstractEntityPersister.check(AbstractEntityPersister.java:2730)
+	at org.hibernate.persister.entity.AbstractEntityPersister.update(AbstractEntityPersister.java:3575)
+	at org.hibernate.persister.entity.AbstractEntityPersister.updateOrInsert(AbstractEntityPersister.java:3438)
+	at org.hibernate.persister.entity.AbstractEntityPersister.update(AbstractEntityPersister.java:3870)
+	at org.hibernate.action.internal.EntityUpdateAction.execute(EntityUpdateAction.java:202)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:604)
+	at org.hibernate.engine.spi.ActionQueue.lambda$executeActions$1(ActionQueue.java:478)
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:721)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:475)
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:344)
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:40)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:107)
+	at org.hibernate.internal.SessionImpl.doFlush(SessionImpl.java:1407)
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:489)
+	at org.hibernate.internal.SessionImpl.flushBeforeTransactionCompletion(SessionImpl.java:3303)
+	at org.hibernate.internal.SessionImpl.beforeTransactionCompletion(SessionImpl.java:2438)
+	at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.beforeTransactionCompletion(JdbcCoordinatorImpl.java:449)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.beforeCompletionCallback(JdbcResourceLocalTransactionCoordinatorImpl.java:183)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.access$300(JdbcResourceLocalTransactionCoordinatorImpl.java:40)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commit(JdbcResourceLocalTransactionCoordinatorImpl.java:281)
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:101)
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:562)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processCommit(AbstractPlatformTransactionManager.java:743)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:711)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.commitTransactionAfterReturning(TransactionAspectSupport.java:654)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:407)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:174)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215)
+	at jdk.proxy2/jdk.proxy2.$Proxy118.save(Unknown Source)
+	at org.fatmansoft.teach.controllers.ActiveController.activeEditSave(ActiveController.java:119)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1063)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:113)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:327)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:115)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:121)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:115)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:126)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:149)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.fatmansoft.teach.security.jwt.AuthTokenFilter.doFilterInternal(AuthTokenFilter.java:52)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.session.web.http.SessionRepositoryFilter.doFilterInternal(SessionRepositoryFilter.java:142)
+	at org.springframework.session.web.http.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:82)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-12-15 16:07:14,742 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/active/activeEditSave,202200300050,2023-12-15 16:07:14,0.026
+2023-12-15 16:07:14,979 [http-nio-9090-exec-4] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/active/getActiveList,202200300050,2023-12-15 16:07:14,0.0
+2023-12-15 16:08:12,470 [http-nio-9090-exec-5] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-15 16:08:12,0.097
+2023-12-15 16:08:12,509 [http-nio-9090-exec-8] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-15 16:08:12,0.01
+2023-12-15 16:08:12,534 [http-nio-9090-exec-6] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-15 16:08:12,0.009
+2023-12-15 16:08:12,637 [http-nio-9090-exec-7] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/active/getActiveList,202200300050,2023-12-15 16:08:12,0.006
+2023-12-15 16:08:12,650 [http-nio-9090-exec-10] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/score/getStudentItemOptionList,202200300050,2023-12-15 16:08:12,0.007
+2023-12-15 16:08:13,104 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/score/getCourseItemOptionList,202200300050,2023-12-15 16:08:13,0.002
+2023-12-15 16:08:42,600 [http-nio-9090-exec-9] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/active/activeEditSave,202200300050,2023-12-15 16:08:42,0.016
+2023-12-15 16:08:42,850 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/active/getActiveList,202200300050,2023-12-15 16:08:42,0.006
+2023-12-15 16:10:14,557 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-15 16:10:14,559 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown initiated...
+2023-12-15 16:10:14,561 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown completed.
+2023-12-15 20:33:57,976 [background-preinit] INFO  o.h.validator.internal.util.Version                - HV000001: Hibernate Validator 6.2.0.Final
+2023-12-15 20:33:57,989 [main] INFO  o.f.t.SpringBootSecurityJwtApplication             - Starting SpringBootSecurityJwtApplication using Java 17.0.4.1 on 大本钟下寄快递 with PID 22096 (D:\web\web-course-design\java-server\target\classes started by 19414 in D:\web\web-course-design\java-server)
+2023-12-15 20:33:57,990 [main] INFO  o.f.t.SpringBootSecurityJwtApplication             - No active profile set, falling back to default profiles: default
+2023-12-15 20:34:00,296 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-12-15 20:34:00,297 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-15 20:34:00,511 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 198 ms. Found 21 JPA repository interfaces.
+2023-12-15 20:34:01,162 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@61bfc9bf' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-12-15 20:34:01,170 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-12-15 20:34:01,856 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port(s): 9090 (http)
+2023-12-15 20:34:01,897 [main] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["http-nio-9090"]
+2023-12-15 20:34:01,901 [main] INFO  org.apache.catalina.core.StandardService           - Starting service [Tomcat]
+2023-12-15 20:34:01,905 [main] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/9.0.46]
+2023-12-15 20:34:02,323 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2023-12-15 20:34:02,325 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 4274 ms
+2023-12-15 20:34:02,749 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-12-15 20:34:02,906 [main] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Starting...
+2023-12-15 20:34:03,372 [main] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Start completed.
+2023-12-15 20:34:03,649 [main] INFO  o.hibernate.jpa.internal.util.LogHelper            - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-15 20:34:03,909 [main] INFO  org.hibernate.Version                              - HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-12-15 20:34:04,378 [main] INFO  org.hibernate.annotations.common.Version           - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-12-15 20:34:04,741 [main] INFO  org.hibernate.dialect.Dialect                      - HHH000400: Using dialect: org.fatmansoft.teach.sqlite.SQLDialect
+2023-12-15 20:34:06,949 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-12-15 20:34:06,969 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-15 20:34:12,388 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping              - Adding welcome page: class path resource [public/index.html]
+2023-12-15 20:34:12,883 [main] INFO  o.s.s.web.DefaultSecurityFilterChain               - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3203a4ae, org.springframework.security.web.context.SecurityContextPersistenceFilter@13f17b8f, org.springframework.security.web.header.HeaderWriterFilter@47629063, org.springframework.web.filter.CorsFilter@59301546, org.springframework.security.web.authentication.logout.LogoutFilter@723f8990, org.fatmansoft.teach.security.jwt.AuthTokenFilter@79aba813, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@11a29c0, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@47800bd7, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@25fc2b8f, org.springframework.security.web.session.SessionManagementFilter@6e5a77ef, org.springframework.security.web.access.ExceptionTranslationFilter@1c76b2fe, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@69ee0861]
+2023-12-15 20:34:13,932 [main] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["http-nio-9090"]
+2023-12-15 20:34:14,093 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat started on port(s): 9090 (http) with context path ''
+2023-12-15 20:34:14,121 [main] INFO  o.f.t.SpringBootSecurityJwtApplication             - Started SpringBootSecurityJwtApplication in 16.91 seconds (JVM running for 21.665)
+2023-12-15 20:34:14,130 [main] INFO  o.f.teach.SystemApplicationListener                - SystemInitStart
+2023-12-15 20:34:14,444 [main] INFO  o.f.teach.SystemApplicationListener                - systemInitEnd
+2023-12-15 20:34:34,150 [http-nio-9090-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-15 20:34:34,150 [http-nio-9090-exec-1] INFO  o.s.web.servlet.DispatcherServlet                  - Initializing Servlet 'dispatcherServlet'
+2023-12-15 20:34:34,152 [http-nio-9090-exec-1] INFO  o.s.web.servlet.DispatcherServlet                  - Completed initialization in 2 ms
+2023-12-15 20:34:34,616 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-15 20:34:34,0.429
+2023-12-15 20:34:34,705 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-15 20:34:34,0.055
+2023-12-15 20:34:34,882 [http-nio-9090-exec-4] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,202200300050,2023-12-15 20:34:34,0.481
+2023-12-15 20:34:38,518 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-15 20:34:38,0.019
+2023-12-15 20:34:40,881 [http-nio-9090-exec-6] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/login,,2023-12-15 20:34:40,0.228
+2023-12-15 20:34:40,993 [http-nio-9090-exec-7] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,202200300050,2023-12-15 20:34:40,0.025
+2023-12-15 20:34:41,335 [http-nio-9090-exec-8] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getMenuList,202200300050,2023-12-15 20:34:41,0.028
+2023-12-15 20:34:41,817 [http-nio-9090-exec-5] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-15 20:34:41,0.018
+2023-12-15 20:34:42,435 [http-nio-9090-exec-10] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300050,2023-12-15 20:34:42,0.01
+2023-12-15 20:34:42,443 [http-nio-9090-exec-9] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-15 20:34:42,0.114
+2023-12-15 20:34:42,531 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-15 20:34:42,0.009
+2023-12-15 20:34:49,589 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-15 20:34:49,0.015
+2023-12-15 20:34:49,680 [http-nio-9090-exec-4] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300050,2023-12-15 20:34:49,0.083
+2023-12-15 20:34:56,817 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-15 20:34:56,0.009
+2023-12-15 20:34:56,967 [http-nio-9090-exec-6] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/active/getActiveList,202200300050,2023-12-15 20:34:56,0.013
+2023-12-15 20:34:57,062 [http-nio-9090-exec-7] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/score/getStudentItemOptionList,202200300050,2023-12-15 20:34:57,0.015
+2023-12-15 20:34:57,082 [http-nio-9090-exec-8] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/score/getCourseItemOptionList,202200300050,2023-12-15 20:34:57,0.01
+2023-12-15 20:34:57,880 [http-nio-9090-exec-5] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-15 20:34:57,0.009
+2023-12-15 20:34:57,897 [http-nio-9090-exec-10] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/score/getScoreList,202200300050,2023-12-15 20:34:57,0.009
+2023-12-15 20:34:58,231 [http-nio-9090-exec-9] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/score/getStudentItemOptionList,202200300050,2023-12-15 20:34:58,0.018
+2023-12-15 20:34:58,486 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/score/getCourseItemOptionList,202200300050,2023-12-15 20:34:58,0.01
+2023-12-15 20:34:58,891 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300050,2023-12-15 20:34:58,0.01
+2023-12-15 20:34:59,213 [http-nio-9090-exec-4] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/active/getActiveList,202200300050,2023-12-15 20:34:59,0.008
+2023-12-15 20:34:59,481 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/score/getStudentItemOptionList,202200300050,2023-12-15 20:34:59,0.008
+2023-12-15 20:34:59,540 [http-nio-9090-exec-6] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/score/getCourseItemOptionList,202200300050,2023-12-15 20:34:59,0.007
+2023-12-15 20:35:07,123 [http-nio-9090-exec-7] ERROR o.f.teach.security.jwt.AuthEntryPointJwt           - Unauthorized error: /api/student/getStudentIntroduceData:Full authentication is required to access this resource
+2023-12-15 20:35:07,124 [http-nio-9090-exec-7] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,,2023-12-15 20:35:07,0.001
+2023-12-15 20:35:07,506 [http-nio-9090-exec-8] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-15 20:35:07,0.017
+2023-12-15 20:35:13,872 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-15 20:35:13,874 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown initiated...
+2023-12-15 20:35:13,878 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown completed.

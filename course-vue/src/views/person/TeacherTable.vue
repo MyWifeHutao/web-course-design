@@ -6,11 +6,11 @@
     </div>
     <div class="base_query_oneLine">
       <div class="query_left">
-        <el-button class="commButton" @click="addItem()">添加</el-button>
+        <el-button color="#96282d" @click="addItem()">添加</el-button>
       </div>
       <div class="query_right">
         <el-input v-model="numName">学号或姓名</el-input>
-        <el-button class="commButton" @click="doQuery()">查询</el-button>
+        <el-button color="#96282d" @click="doQuery()">查询</el-button>
       </div>
     </div>
     <div class="table-content">
@@ -93,10 +93,10 @@
         </el-table-column>
         <el-table-column label="操作" color="black" align="center" width="230">
           <template v-slot="scope">
-            <el-button class="commButton" @click="editItem(scope.row.teacherId)"
+            <el-button color="#96282d" @click="editItem(scope.row.teacherId)"
               >编辑</el-button
             >
-            <el-button class="commButton" @click="deleteItem(scope.$index)"
+            <el-button color="#96282d" @click="deleteItem(scope.$index)"
               >删除</el-button
             >
           </template>
