@@ -7,6 +7,7 @@ import {
   type TaskStudentItem,
   type TermItem,
   ActiveItem,
+  EssayItem,
 } from "~/models/general";
 //获取课程数据表后台数据请求方法
 export async function getCourseList(
@@ -32,6 +33,10 @@ export async function courseSave(data: CourseItem): Promise<DataResponse> {
 //获取学生选择项列表后台数据请求方法
 export async function getStudentItemOptionList(): Promise<OptionItem[]> {
   const res = await generalRequest("/api/score/getStudentItemOptionList", null);
+  return res.itemList as OptionItem[];
+}
+export async function getTeacherItemOptionList(): Promise<OptionItem[]> {
+  const res = await generalRequest("/api/essay/getTeacherItemOptionList", null);
   return res.itemList as OptionItem[];
 }
 //获取课程选择项列表后台数据请求方法
@@ -88,8 +93,25 @@ export async function activeEditSave(
   });
   return res as DataResponse;
 }
-
-
+export async function essayEditSave(
+  teacherId: number,
+  editedItem: EssayItem
+): Promise<DataResponse> {
+  const res = await generalRequest("/api/essay/essayEditSave", {
+    teacherId : teacherId,
+    data : editedItem.data,
+    book:editedItem.book,
+  });
+  return res as DataResponse;
+}
+export async function getEssayList(
+  teacherId: number | null,
+): Promise<[]> {
+  const res = await generalRequest("/api/essay/getEssayList", {
+    teacherId: teacherId,
+  });
+  return res.data as [];
+}
 
 
 

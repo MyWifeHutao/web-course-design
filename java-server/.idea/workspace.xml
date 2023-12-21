@@ -5,10 +5,151 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d3ba3ff-d47f-4920-93b3-ffe39256c2dc" name="Default Changelist" comment="lxq">
-      <change beforePath="$PROJECT_DIR$/../course-vue/node_modules/.vite/deps/_metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/../course-vue/node_modules/.vite/deps/_metadata.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../course-vue/node_modules/.vite/deps/element-plus_es_components_table_style_index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../course-vue/node_modules/.vite/deps/element-plus_es_components_table_style_index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-vue/dist/assets/CourseTable-c70deca0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-vue/dist/assets/DictionaryManage-bfd95514.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-vue/dist/assets/FamilyMember-d51bb3a2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-vue/dist/assets/Login-0a8e1498.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-vue/dist/assets/Login-9ad7a75d.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-vue/dist/assets/MainPage-0a5c5edc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-vue/dist/assets/MainPage-57461eca.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-vue/dist/assets/MenuManage-1edfa359.css" beforeDir="false" afterPath="$PROJECT_DIR$/../course-vue/dist/assets/MenuManage-1edfa359.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-vue/dist/assets/MenuManage-a948a893.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-vue/dist/assets/Password-97f7609d.css" beforeDir="false" afterPath="$PROJECT_DIR$/../course-vue/dist/assets/Password-97f7609d.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-vue/dist/assets/Password-cae23d92.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-vue/dist/assets/ScoreTable-9af0c727.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-vue/dist/assets/StudentInfo-59bb5988.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-vue/dist/assets/StudentIntroduce-05d3a550.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-vue/dist/assets/StudentIntroduce-f8f4efcf.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-vue/dist/assets/StudentTable-14025b05.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-vue/dist/assets/StudentTable-b83a056d.css" beforeDir="false" afterPath="$PROJECT_DIR$/../course-vue/dist/assets/StudentTable-b83a056d.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-vue/dist/assets/SystemIntroduce-777402be.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-vue/dist/assets/TeacherInfo-1d7be607.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-vue/dist/assets/TeacherIntroduce-5aab4b1f.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-vue/dist/assets/TeacherTable-c73b116b.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-vue/dist/assets/button-28ba6a87.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-vue/dist/assets/checkbox-8628d4a5.css" beforeDir="false" afterPath="$PROJECT_DIR$/../course-vue/dist/assets/checkbox-8628d4a5.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-vue/dist/assets/date-picker-9b3e1781.css" beforeDir="false" afterPath="$PROJECT_DIR$/../course-vue/dist/assets/date-picker-9b3e1781.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-vue/dist/assets/index-82efd59e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-vue/dist/assets/index-eea72723.js" beforeDir="false" afterPath="$PROJECT_DIR$/../course-vue/dist/assets/index-eea72723.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-vue/dist/assets/index-f9c8f33e.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-vue/dist/assets/infoServ-d51835b9.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-vue/dist/assets/messageBox-19614e80.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-vue/dist/assets/personServ-18161bea.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-vue/dist/assets/personServ-c99acf6f.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-vue/dist/assets/select-71b63ad2.css" beforeDir="false" afterPath="$PROJECT_DIR$/../course-vue/dist/assets/select-71b63ad2.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-vue/dist/assets/systemServ-39d13cf4.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-vue/dist/assets/table-column-6e09cace.css" beforeDir="false" afterPath="$PROJECT_DIR$/../course-vue/dist/assets/table-column-6e09cace.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-vue/dist/assets/tag-994c02b2.css" beforeDir="false" afterPath="$PROJECT_DIR$/../course-vue/dist/assets/tag-994c02b2.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-vue/dist/assets/teachingServ-050b3b61.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-vue/dist/assets/tree-1e184bc4.css" beforeDir="false" afterPath="$PROJECT_DIR$/../course-vue/dist/assets/tree-1e184bc4.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-vue/dist/backgroud.png" beforeDir="false" afterPath="$PROJECT_DIR$/../course-vue/dist/backgroud.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-vue/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../course-vue/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-vue/dist/loginStudentms.png" beforeDir="false" afterPath="$PROJECT_DIR$/../course-vue/dist/loginStudentms.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-vue/dist/studentms.png" beforeDir="false" afterPath="$PROJECT_DIR$/../course-vue/dist/studentms.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-vue/src/components.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../course-vue/src/components.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-vue/src/components/Navi.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../course-vue/src/components/Navi.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-vue/src/models/general.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../course-vue/src/models/general.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-vue/src/router/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../course-vue/src/router/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-vue/src/services/teachingServ.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../course-vue/src/services/teachingServ.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-vue/src/views/info/TeacherIntroduce.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../course-vue/src/views/info/TeacherIntroduce.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/java-server-2023-11-16.0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/java-server-2023-11-19.0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/java-server-2023-11-20.0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/java-server-2023-11-21.0.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/java-server.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/java-server.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/fatmansoft/teach/controllers/TeacherController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fatmansoft/teach/controllers/TeacherController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/fatmansoft/teach/models/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fatmansoft/teach/models/Teacher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/fatmansoft/teach/service/TeacherService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fatmansoft/teach/service/TeacherService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/assets/CourseTable-c70deca0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/assets/DictionaryManage-bfd95514.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/assets/FamilyMember-d51bb3a2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/assets/Login-0a8e1498.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/assets/Login-9ad7a75d.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/assets/MainPage-0a5c5edc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/assets/MainPage-57461eca.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/assets/MenuManage-1edfa359.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/public/assets/MenuManage-1edfa359.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/assets/MenuManage-a948a893.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/assets/Password-97f7609d.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/public/assets/Password-97f7609d.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/assets/Password-cae23d92.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/assets/ScoreTable-9af0c727.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/assets/StudentInfo-59bb5988.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/assets/StudentIntroduce-05d3a550.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/assets/StudentIntroduce-f8f4efcf.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/assets/StudentTable-14025b05.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/assets/StudentTable-b83a056d.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/public/assets/StudentTable-b83a056d.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/assets/SystemIntroduce-777402be.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/assets/TeacherInfo-1d7be607.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/assets/TeacherIntroduce-5aab4b1f.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/assets/TeacherTable-c73b116b.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/assets/button-28ba6a87.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/assets/checkbox-8628d4a5.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/public/assets/checkbox-8628d4a5.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/assets/date-picker-9b3e1781.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/public/assets/date-picker-9b3e1781.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/assets/index-82efd59e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/assets/index-eea72723.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/public/assets/index-eea72723.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/assets/index-f9c8f33e.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/assets/infoServ-d51835b9.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/assets/messageBox-19614e80.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/assets/personServ-18161bea.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/assets/personServ-c99acf6f.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/assets/select-71b63ad2.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/public/assets/select-71b63ad2.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/assets/systemServ-39d13cf4.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/assets/table-column-6e09cace.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/public/assets/table-column-6e09cace.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/assets/tag-994c02b2.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/public/assets/tag-994c02b2.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/assets/teachingServ-050b3b61.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/assets/tree-1e184bc4.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/public/assets/tree-1e184bc4.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/backgroud.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/public/backgroud.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/loginStudentms.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/public/loginStudentms.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/studentms.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/public/studentms.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/fatmansoft/teach/controllers/TeacherController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/fatmansoft/teach/controllers/TeacherController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/fatmansoft/teach/models/Teacher.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/fatmansoft/teach/models/Teacher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/fatmansoft/teach/service/TeacherService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/fatmansoft/teach/service/TeacherService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/fatmansoft/teach/thread/HanoiFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/fatmansoft/teach/thread/HanoiFrame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/assets/CourseTable-c70deca0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/assets/DictionaryManage-bfd95514.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/assets/FamilyMember-d51bb3a2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/assets/Login-0a8e1498.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/assets/Login-9ad7a75d.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/assets/MainPage-0a5c5edc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/assets/MainPage-57461eca.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/assets/MenuManage-1edfa359.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/public/assets/MenuManage-1edfa359.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/assets/MenuManage-a948a893.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/assets/Password-97f7609d.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/public/assets/Password-97f7609d.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/assets/Password-cae23d92.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/assets/ScoreTable-9af0c727.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/assets/StudentInfo-59bb5988.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/assets/StudentIntroduce-05d3a550.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/assets/StudentIntroduce-f8f4efcf.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/assets/StudentTable-14025b05.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/assets/StudentTable-b83a056d.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/public/assets/StudentTable-b83a056d.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/assets/SystemIntroduce-777402be.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/assets/TeacherInfo-1d7be607.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/assets/TeacherIntroduce-5aab4b1f.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/assets/TeacherTable-c73b116b.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/assets/button-28ba6a87.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/assets/checkbox-8628d4a5.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/public/assets/checkbox-8628d4a5.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/assets/date-picker-9b3e1781.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/public/assets/date-picker-9b3e1781.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/assets/index-82efd59e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/assets/index-eea72723.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/public/assets/index-eea72723.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/assets/index-f9c8f33e.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/assets/infoServ-d51835b9.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/assets/messageBox-19614e80.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/assets/personServ-18161bea.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/assets/personServ-c99acf6f.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/assets/select-71b63ad2.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/public/assets/select-71b63ad2.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/assets/systemServ-39d13cf4.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/assets/table-column-6e09cace.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/public/assets/table-column-6e09cace.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/assets/tag-994c02b2.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/public/assets/tag-994c02b2.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/assets/teachingServ-050b3b61.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/assets/tree-1e184bc4.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/public/assets/tree-1e184bc4.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/backgroud.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/public/backgroud.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/loginStudentms.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/public/loginStudentms.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/studentms.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/public/studentms.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/java-server-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/java-server-1.0-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../web.db" beforeDir="false" afterPath="$PROJECT_DIR$/../web.db" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,6 +160,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -41,6 +183,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;D:/web/web-course-design/java-server&quot;,

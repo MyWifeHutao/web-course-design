@@ -32,6 +32,26 @@ public class Teacher {
 
     @Size(max = 20)
     private String degree;
+    @Size(max = 20)
+    private String yan;
+    @Size(max = 20)
+    private String jiang;
+
+    public String getJiang() {
+        return jiang;
+    }
+
+    public void setJiang(String jiang) {
+        this.jiang = jiang;
+    }
+
+    public String getYan() {
+        return yan;
+    }
+
+    public void setYan(String yan) {
+        this.yan = yan;
+    }
 
     public Integer getTeacherId() {
         return teacherId;

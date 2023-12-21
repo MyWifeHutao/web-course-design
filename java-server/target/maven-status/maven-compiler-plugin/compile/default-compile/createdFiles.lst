@@ -7,6 +7,7 @@ org\fatmansoft\teach\controllers\CourseController.class
 org\fatmansoft\teach\controllers\RedirController.class
 org\fatmansoft\teach\util\DateTimeTool.class
 org\fatmansoft\teach\service\SysSqlService.class
+org\fatmansoft\teach\repository\EssayRepository.class
 org\fatmansoft\teach\repository\StatisticsDayRepository.class
 org\fatmansoft\teach\thread\Counter2$SeparateSubTask.class
 org\fatmansoft\teach\models\Teacher.class
@@ -20,6 +21,7 @@ org\fatmansoft\teach\models\UserType.class
 org\fatmansoft\teach\service\EmailService.class
 org\fatmansoft\teach\models\StatisticsDay.class
 org\fatmansoft\teach\stream\FileClassDemo.class
+org\fatmansoft\teach\controllers\ActiveController.class
 org\fatmansoft\teach\socket\JabberClient.class
 org\fatmansoft\teach\models\Material.class
 org\fatmansoft\teach\util\LoginControlUtil.class
@@ -36,6 +38,7 @@ org\fatmansoft\teach\itextpdf\PDFTest.class
 org\fatmansoft\teach\repository\MenuInfoRepository.class
 org\fatmansoft\teach\repository\TeacherRepository.class
 org\fatmansoft\teach\repository\PersonRepository.class
+org\fatmansoft\teach\models\Active.class
 org\fatmansoft\teach\models\Course.class
 org\fatmansoft\teach\SystemApplicationListener.class
 org\fatmansoft\teach\repository\CourseRepository.class
@@ -54,6 +57,7 @@ org\fatmansoft\teach\payload\response\MessageResponse.class
 org\fatmansoft\teach\controllers\HtmlController$1.class
 org\fatmansoft\teach\repository\ModifyLogRepository.class
 org\fatmansoft\teach\controllers\AuthController.class
+org\fatmansoft\teach\models\Essay.class
 org\fatmansoft\teach\thread\Hanoi$GraphPanel.class
 org\fatmansoft\teach\payload\response\OptionItemList.class
 org\fatmansoft\teach\thread\Hanoi.class
@@ -71,9 +75,11 @@ org\fatmansoft\teach\payload\response\MyTreeNode.class
 org\fatmansoft\teach\stream\BinaryOutputDemo.class
 org\fatmansoft\teach\service\BaseService.class
 org\fatmansoft\teach\models\Task.class
+org\fatmansoft\teach\controllers\EssayController.class
 org\fatmansoft\teach\itextpdf\PDFBuilder.class
 org\fatmansoft\teach\controllers\TeamController.class
 org\fatmansoft\teach\stream\TextFileInputDemo.class
+org\fatmansoft\teach\repository\ActiveRepository.class
 org\fatmansoft\teach\repository\SystemInfoRepository.class
 org\fatmansoft\teach\models\MenuInfo.class
 org\fatmansoft\teach\thread\Counter2$StartL.class

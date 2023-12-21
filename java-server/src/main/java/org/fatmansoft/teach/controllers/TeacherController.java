@@ -43,6 +43,8 @@ public class TeacherController {
         if(s == null)
             return m;
         m.put("title",s.getTitle());
+        m.put("yan",s.getYan());
+        m.put("jiang",s.getJiang());
         m.put("degree",s.getDegree());
         p = s.getPerson();
         if(p == null)
@@ -235,6 +237,8 @@ public class TeacherController {
         personRepository.save(p);  // 修改保存人员信息
         s.setTitle(CommonMethod.getString(form, "title"));
         s.setDegree(CommonMethod.getString(form, "degree"));
+        s.setYan(CommonMethod.getString(form,"yan"));
+        s.setJiang(CommonMethod.getString(form,"jiang"));
         teacherRepository.save(s);  //修改保存学生信息
         return CommonMethod.getReturnData(s.getTeacherId());  // 将studentId返回前端
     }

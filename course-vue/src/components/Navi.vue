@@ -23,6 +23,16 @@
 
             <img @click="switchCollapse()" class="icon1" referrerpolicy="no-referrer" src="https://picst.sunbangyan.cn/2023/12/01/be22f794e3145d6d9ee91b995441ab22.jpeg" />
             <template v-if="userInfo.roles == 'ROLE_ADMIN'">
+                        <el-sub-menu index="5" >
+                          <template #title>
+                            <el-icon><Link /></el-icon>
+                            <span>项目简介</span>
+                          </template>
+                          <el-menu-item-group>
+                              <el-menu-item index="/ProjectHtml" @click=openProjectHtml()>项目文档</el-menu-item>
+                              <el-menu-item index="/ProjectVideo" @click=openProjectVideo()>项目视频</el-menu-item>
+                              </el-menu-item-group>
+                        </el-sub-menu>
                         <el-sub-menu index="1" >
                           <template #title>
                             <el-icon><location /></el-icon>
@@ -41,6 +51,7 @@
                           <el-menu-item-group>
                               <el-menu-item index="/menu-manage-panel" @click=goToMenu()>菜单管理</el-menu-item>
                               <el-menu-item index="/dictionary-manage-panel" @click=goToDictionary()>字典管理</el-menu-item>
+                              
                               </el-menu-item-group>
                         </el-sub-menu>
                         <el-sub-menu index="3" >
@@ -102,6 +113,7 @@
                               <el-menu-item index="/MainPage" @click=goToMain()>主界面</el-menu-item>
                               <el-menu-item index="/Introduce" @click=teacherIntroduce()>个人简介</el-menu-item>
                               <el-menu-item index="/Login" @click=changePswd()>修改密码</el-menu-item>
+                              <el-menu-item index="/www" @click=www()>论文著作</el-menu-item>
                               </el-menu-item-group>
                         </el-sub-menu>  
             </template>
@@ -337,6 +349,9 @@ export default defineComponent({
     },
     changePswd(){
       router.push("/Password");
+    },
+    www(){
+      router.push("/aaa");
     },
     unloadHandler () {
     this.logout();

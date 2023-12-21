@@ -104,6 +104,11 @@ export interface Student {
   num: string
   name: string
 }
+export interface EssayItem{
+  teacherId:number
+  data:string
+  book:string
+}
 //用于成绩数据信息的定义
 export interface ScoreItem {
   scoreId: number
@@ -254,4 +259,6 @@ export interface TeacherItem {
   email: string
   phone: string
   address: string
+  yan:string
+  jiang:string
 }

@@ -20,11 +20,6 @@ const routes = [
     component: () => import("~/views/MainPage.vue"),
   },
   {
-    path: "/SystemIntroduce",
-    name: "SystemIntroduce",
-    component: () => import("~/views/info/SystemIntroduce.vue"),
-  },
-  {
     path: "/Password",
     name: "Password",
     component: () => import("~/views/info/Password.vue"),
@@ -43,6 +38,11 @@ const routes = [
     path:"/Guan",
     name:"Guan",
     component: () => import("~/views/info/Guan.vue"),
+  },//学工管理
+  {
+    path:"/aaa",
+    name:"aaa",
+    component: () => import("~/views/info/bbb.vue"),
   },//学工管理
   {
     path: "/TeacherIntroduce",

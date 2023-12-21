@@ -19,6 +19,8 @@ public class TeacherService {
             return m;
         m.put("title",teacher.getTitle());
         m.put("degree",teacher.getDegree());
+        m.put("jiang",teacher.getJiang());
+        m.put("yan",teacher.getYan());
         p = teacher.getPerson();
         if(p == null)
             return m;
